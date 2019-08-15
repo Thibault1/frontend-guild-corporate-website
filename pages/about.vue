@@ -18,13 +18,13 @@
             We are a specialized consultancy and staffing company for all your
             Frontend and Node.js development needs. We help Frontend and
             Full-Stack JavaScript Developers to work together with the very best
-            top-notch companies from Belgium. We organize monthly meetups for
-            our developers where we discuss hot topics like GraphQL, Angular,
-            Typescript, React, Vue.js and Node.js.
+            top-notch companies from Belgium.
           </p>
 
           <h3>We like to meetup.</h3>
           <p>
+            We organize monthly meetups for our developers where we discuss hot
+            topics like GraphQL, Angular, Typescript, React, Vue.js and Node.js.
             Going to and organizing JavaScript conferences is one of the things
             we do to keep up to date with the latest hottest technologies.
           </p>
