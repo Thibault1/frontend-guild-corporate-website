@@ -37,6 +37,10 @@
                   9000 Gent<br />
                   +32 493 84 98 73
                 </p>
+                <p>
+                  Just send us a message and we promise to send you a reply
+                  within 2 working days, but probably faster. :)
+                </p>
               </div>
             </article>
           </div>
