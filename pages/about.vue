@@ -18,29 +18,31 @@
             We are a specialized consultancy and staffing company for all your
             Frontend and Node.js development needs. We help Frontend and
             Full-Stack JavaScript Developers to work together with the very best
-            top-notch companies from Belgium.
+            <strong>top-notch companies</strong> from Belgium.
           </p>
 
-          <h3>We like to meetup.</h3>
+          <h3>We like to meetup</h3>
           <p>
             We organize monthly meetups for our developers where we discuss hot
             topics like GraphQL, Angular, Typescript, React, Vue.js and Node.js.
             Going to and organizing JavaScript conferences is one of the things
-            we do to keep up to date with the latest hottest technologies.
+            we do to keep up to date with the
+            <strong>latest hottest technologies</strong>.
           </p>
-          <h3>JavaScript first.</h3>
+          <h3>JavaScript first</h3>
           <p>
             JavaScript is the backbone of our organization and we do a thorough
             screening from all our developers, so we can assure we work only
-            with the very best talent from Belgium. We can guarantee all of our
-            Frontend Developers are from the highest possible caliber you can
-            find in Belgium.
+            with the <strong>very best talent from Belgium</strong>. We can
+            guarantee all of our Frontend Developers are from the highest
+            possible caliber you can find in Belgium.
           </p>
           <p>
             Next to consultancy we provide permanent placement for our clients.
           </p>
           <p>
-            In contrast to other companies we do in-house technical screenings
+            In contrast to other companies we do
+            <strong>in-house technical screenings</strong>
             from all of our candidates, so we know for sure the CV from the
             JavaScript developer matches his or her skill set. Pair programming
             tests are an essential part from our recruitment process.
@@ -52,7 +54,7 @@
           </p>
           <p>
             And to all your Frontend Developers out there, and if you are good
-            enough, JOIN THE GUILD today :)
+            enough, <strong>JOIN THE GUILD</strong> today :)
           </p>
         </div>
 
