@@ -2,7 +2,7 @@
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
       title="Contact Us"
-      subtitle="Example Contact Page"
+      subtitle="Let's have a cup a coffee together"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -14,7 +14,7 @@
                 Hello!
               </p>
               <p class="subtitle">
-                What can I do for you?
+                Let's work together.
               </p>
               <figure class="image is-1by1 ">
                 <opti-image
@@ -28,15 +28,12 @@
               <div class="content">
                 <p>
                   <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
+                    Let's start your new Frontend adventures today.
                   </strong>
                 </p>
                 <p>
-                  This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                  Just send us a message and we promise to send you a reply
+                  within 2 working days, but probably faster. :)
                 </p>
               </div>
             </article>
@@ -48,13 +45,12 @@
           </div>
         </div>
       </template>
-      <template v-slot:sidebar>
+      <!--   <template v-slot:sidebar>
         <h3 class="subtitle is-4">
           Latest Posts
         </h3>
-        <!-- Latest Posts -->
         <posts-grid :per-row="1" :number="2" />
-      </template>
+      </template> -->
     </main-section>
   </div>
 </template>
