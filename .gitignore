@@ -89,3 +89,4 @@ sw.*
 
 #Awake CMS
 static/api
+.vscode/settings.json
