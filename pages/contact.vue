@@ -28,12 +28,14 @@
               <div class="content">
                 <p>
                   <strong>
-                    Let's start your new Frontend adventures today.
+                    Frontend Guild - Ghent office
                   </strong>
                 </p>
                 <p>
-                  Just send us a message and we promise to send you a reply
-                  within 2 working days, but probably faster. :)
+                  Kleinvleeshuissteeg 24/301<br />
+
+                  9000 Gent<br />
+                  +32 493 84 98 73
                 </p>
               </div>
             </article>
