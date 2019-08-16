@@ -1,6 +1,6 @@
 ---
 title: Medior Frontend Developer
-subtitle: Get Up and Running with Awake
+subtitle: 'Brussels, Belgium | € 45.000 - € 55.000 per annum'
 category:
   - About Awake
 author: 'Thibault Marin '
