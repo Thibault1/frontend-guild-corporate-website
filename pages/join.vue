@@ -11,7 +11,7 @@
           <h3>Do you have what it takes to become our new guild member.</h3>
           <p>
             Are you ready to take the next step in your Frontend Development
-            Carreer, then you are lucky, because we are always searching for
+            Carreer, then you are lucky, because we are always searching
             passionate JavaScript developers.
           </p>
           <p>
