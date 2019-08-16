@@ -24,7 +24,7 @@ export default {
     },
     {
       name: 'Join the Guild',
-      link: '/categories'
+      link: '/join'
     },
     {
       name: 'Contact',
