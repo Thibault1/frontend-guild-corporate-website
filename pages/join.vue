@@ -2,7 +2,7 @@
   <div id="join-page" class="page-wrapper join-page content-page">
     <site-hero
       title="Join the Guild Today"
-      subtitle="Are you our new JavaScript wizard that we are searching for?"
+      subtitle="Are you the new JavaScript wizard that we are searching for?"
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
