@@ -52,7 +52,8 @@
             level.
           </p>
           <p>
-            If the above steps went well you can become a Frontend Guild member.
+            If the above steps went well, then who knows you are our newest
+            member.
           </p>
         </div>
       </template>

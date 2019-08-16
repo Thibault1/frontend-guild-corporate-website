@@ -2,7 +2,7 @@
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
       title="Contact Us"
-      subtitle="Let's have a cup of coffee together"
+      subtitle="Let's have a cup of coffee together."
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -35,7 +35,8 @@
                   Kleinvleeshuissteeg 24/301<br />
 
                   9000 Gent<br />
-                  +32 493 84 98 73
+                  +32 493 84 98 73<br />
+                  info@frontendguild.be
                 </p>
                 <p>
                   BE0727972726
