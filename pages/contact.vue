@@ -2,7 +2,7 @@
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
       title="Contact Us"
-      subtitle="Let's have a cup a coffee together"
+      subtitle="Let's have a cup of coffee together"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
