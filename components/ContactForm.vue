@@ -4,7 +4,7 @@
     <div class="field">
       <label class="label is-medium">First name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" name="firstname" />
+        <input class="input is-medium" type="text" name="firstname" required />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -14,7 +14,7 @@
     <div class="field">
       <label class="label is-medium">Last name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" name="lastname" />
+        <input class="input is-medium" type="text" name="lastname" required />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -24,7 +24,7 @@
     <div class="field">
       <label class="label is-medium">Email</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="email" name="email" />
+        <input class="input is-medium" type="email" name="email" required />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="envelope" />
         </span>
