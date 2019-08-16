@@ -1,10 +1,10 @@
 <template>
-  <form>
+  <form name="contact" method="POST" data-netlify="true">
     <!-- First name -->
     <div class="field">
       <label class="label is-medium">First name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" />
+        <input class="input is-medium" type="text" name="firstname" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -14,7 +14,7 @@
     <div class="field">
       <label class="label is-medium">Last name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" />
+        <input class="input is-medium" type="text" name="lastname" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -24,7 +24,7 @@
     <div class="field">
       <label class="label is-medium">Email</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="email" />
+        <input class="input is-medium" type="email" name="email" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="envelope" />
         </span>
@@ -34,7 +34,7 @@
     <div class="field">
       <label class="label is-medium">Subject</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="email" />
+        <input class="input is-medium" type="text" name="subject" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="briefcase" />
         </span>
@@ -46,13 +46,14 @@
       <div class="control">
         <textarea
           class="textarea"
+          name="message"
           placeholder="Please tell us how can we help you."
           rows="8"
         ></textarea>
       </div>
     </div>
     <div class="control">
-      <button class="button is-primary">
+      <button class="button is-primary" type="submit">
         Contact Us
       </button>
     </div>
