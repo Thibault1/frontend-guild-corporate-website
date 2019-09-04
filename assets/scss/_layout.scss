@@ -24,7 +24,7 @@ pre {
   background: #eee;
   padding: 20px;
   overflow-x: auto;
-  
+
   code {
     background: transparent;
     color: initial;
@@ -49,9 +49,30 @@ h1 {
   font-family: 'BisonBold', Arial, Helvetica, sans-serif;
 }
 
+h6 {
+  font-family: 'BisonBold', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3em !important;
+}
+
+.grid-theme-boxes {
+  margin-top: 25px;
+}
+
+.container-center {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 15px;
+  text-align: center;
+}
+
 body {
   font-family: 'Encode Sans', Arial, Helvetica, sans-serif;
   color: #192D41 !important;
+}
+
+.logo-container {
+  margin-top: 15px;
 }
 
 .navbar-end li a {
@@ -64,11 +85,11 @@ body {
 
 @font-face {
   font-family: 'BisonBold';
-  src: url('../Bison-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */      
+  src: url('../Bison-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 @font-face {
   font-family: 'Encode Sans';
-  src: url('../EncodeSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */      
+  src: url('../EncodeSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 /* purgecss end ignore */
