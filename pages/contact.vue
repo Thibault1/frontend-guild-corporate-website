@@ -17,7 +17,7 @@
                 Let's work together.
               </p>
               <figure class="image is-1by1 ">
-                <opti-image src="require('/profile-pic.jpg')" />
+                <img src="/profile-pic.jpg" alt="profile pic" />
               </figure>
               <br />
               <div class="content">
