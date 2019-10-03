@@ -3,7 +3,7 @@
     <site-hero
       title="Why working together with us will benefit you."
       subtitle="We are the Belgian JavaScript heroes."
-      image="/uploads/about-hero.jpg"
+      image="/about-fg.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>

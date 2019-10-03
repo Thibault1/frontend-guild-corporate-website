@@ -3,7 +3,7 @@
     <site-hero
       title="Join the Guild Today"
       subtitle="Discover your potential."
-      image="/uploads/about-hero.jpg"
+      image="/join-fg.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>

@@ -3,7 +3,7 @@
     <site-hero
       title="Contact Us"
       subtitle="Let's have a cup of coffee together."
-      image="/uploads/contact-hero.jpg"
+      image="/contact-fg.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
@@ -17,12 +17,7 @@
                 Let's work together.
               </p>
               <figure class="image is-1by1 ">
-                <opti-image
-                  :src="require('~/assets/uploads/contact-person.jpg').src"
-                  :srcset="
-                    require('~/assets/uploads/contact-person.jpg').srcSet
-                  "
-                />
+                <opti-image src="require('/profile-pic.jpg')" />
               </figure>
               <br />
               <div class="content">
