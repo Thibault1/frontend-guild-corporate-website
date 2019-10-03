@@ -13,16 +13,27 @@
         <h6>Featured Jobs</h6>
         <!-- All Posts -->
         <posts-grid />
-        <h6>Frontend First</h6>
         <div class="container-center">
+          <h6>Frontend First</h6>
           <p>
-            At Frontend Guild we are specialized in Frontend and Node.js
-            development. We distinguish ourselves from other staffing companies
-            by being experts in our discipline. We strongly believe that you
-            can’t be an expert in everything because of that we focus only on
-            JavaScript related technologies. We are proud that we talk the same
-            language as developers, which makes it more easy to understand the
-            needs and expectations of hiring managers and frontend engineers.
+            Frontend Guild is specialized in Frontend and Node.js development.
+            We decided to devote our time and skills to solve our customer’s
+            complex tasks concerning the development of (web) apps that stand
+            out from there competitors. This is our love and passion; this is
+            our occupation and way of life.
+          </p>
+          <br />
+          <p>
+            At Frontend Guild, we distinguish ourselves from other companies by
+            being experts in our discipline. We strongly believe that one can’t
+            be an expert in everything and that’s why we focus only on
+            JavaScript related technologies.
+          </p>
+          <br />
+          <p>
+            We’re proud that we talk the same language as developers, which
+            makes it more easy to understand the needs & expectations of hiring
+            managers and Frontend Engineers.
           </p>
           <div class="logo-container">
             <img src="/javascript.svg" alt="javascript logo" />
@@ -31,6 +42,20 @@
             <img src="/react.svg" alt="react logo" />
             <img src="/node.svg" alt="node logo" />
           </div>
+        </div>
+        <div class="container-center margin-top">
+          <h6>What others say about us</h6>
+          <carousel :per-page="1" :mouse-drag="false">
+            <slide>
+              "Maxim was the perfect help to find my dream JavaScript job. -
+              Kenny Debouvry."
+            </slide>
+            <slide>
+              "It was a pleaseure to work with Thibault he really knew what he
+              was talking about. And provided me with a good world class
+              frontend developer. - Xavier Vancompernolle."
+            </slide>
+          </carousel>
         </div>
       </template>
       <template v-slot:sidebar>
@@ -55,6 +80,8 @@ export default {
   },
   components: {
     NewsLetterFormModal
+    // Carousel,
+    // Slide
   },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])

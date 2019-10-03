@@ -3,5 +3,6 @@ export default [
   '~/plugins/OptiImage',
   '~/plugins/Disqus',
   '~/plugins/EventBus',
-  '~/plugins/Components'
+  '~/plugins/Components',
+  { src: '~/plugins/Carousel', ssr: false },
 ]

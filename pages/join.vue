@@ -8,53 +8,48 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Do you have what it takes to become a Frontend Guild member.</h3>
+          <h3>Do you have what it takes to become a Frontend Guild member?</h3>
           <p>
-            Are you ready to take the next step in your Frontend Development
-            Carreer, then you are lucky, because we are always searching
-            passionate JavaScript developers.
+            Are you ready to take your Frontend Development Career to the next
+            level?
           </p>
-          <p>Start profiting from:</p>
+          <p>
+            Then look no further, we’re always looking for passionate JavaScript
+            developers to join Frontend Guild.
+          </p>
+          <p>
+            We will provide you with inside market information and connect you
+            with the hottest JavaScript jobs.
+          </p>
+          <p>
+            Let's meetup for a cup of coffee and have a talk about your career
+            goals. If there’s a match with the standards & values of our Guild
+            you could become our newest member.
+          </p>
+          <p><strong>Our Developers Enjoy:</strong></p>
 
           <ul>
-            <li>A strong network from co frontend developers.</li>
+            <li>A strong network of fellow (Senior) Frontend Developers.</li>
             <li>
               Monthly meetups with pizza, beers and hot JavaScript topics.
             </li>
             <li>
-              We make sure you get paid the highest possible market rates.
+              The highest possible market rates.
             </li>
             <li>
               Being a part of the hottest JavaScript community from Belgium.
             </li>
           </ul>
           <p>
-            Freelancer, employee or still a student, we are there for
-            <strong>every</strong> Frontend Developer.
+            <strong>Who we welcome to Frontend Guild?</strong>
           </p>
           <ul>
-            <li>Are you a student that is searching your first job.</li>
-            <li>A freelancer who is searching a new adventure.</li>
+            <li>A student who’s looking for a first job.</li>
+            <li>A freelancer who’s looking for a new adventure.</li>
             <li>
-              An employee that is ready to take the next step in his or her
-              career.
+              An employee who’s ready to boost his/her career to the next level.
             </li>
           </ul>
-          <p>
-            Then you are at the good address, because for every situation we can
-            provide you with inside market information and determine your net
-            worth.
-          </p>
-          <p>
-            Let's meetup for a cup of coffee and have a talk about your career
-            goals. If we feel there is match, we organise a pair programming
-            excersise with one of our Senior Developers to determine your skill
-            level.
-          </p>
-          <p>
-            If the above steps went well, then who knows you are our newest
-            member.
-          </p>
         </div>
       </template>
     </main-section>
