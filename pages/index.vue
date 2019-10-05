@@ -45,7 +45,7 @@
         </div>
         <div class="container-center margin-top">
           <h6>What others say about us</h6>
-          <carousel :per-page="1" :mouse-drag="false">
+          <!--           <carousel :per-page="1" :mouse-drag="false">
             <slide>
               "Maxim was the perfect help to find my dream JavaScript job. -
               Kenny Debouvry."
@@ -55,7 +55,7 @@
               was talking about. And provided me with a good world class
               frontend developer. - Xavier Vancompernolle."
             </slide>
-          </carousel>
+          </carousel> -->
         </div>
       </template>
       <template v-slot:sidebar>
@@ -80,8 +80,6 @@ export default {
   },
   components: {
     NewsLetterFormModal
-    // Carousel,
-    // Slide
   },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])
