@@ -34,3 +34,16 @@ The company is a world-renowned company in the field of drone technology. As a R
 * Analytical skills, you can dissect complex problems in its elements.
 * You’re eager to learn and improve yourself.
 * It’s key that you’re sociable & a team player.
+
+If your interested in this job, don’t hesitate and contact us!
+
+Get in touch with us and we can discuss the details while enjoying a cup of coffee.
+
+thibault@frontendguild.be\
++32 493 84 98 73
+
+If this job is not a good match for you.
+
+We're always searching motivated frontend developers in Belgium. Be sure to contact us to find which other Belgium Frontend Developer jobs we have for you. 
+
+thibault@frontendguild.be
