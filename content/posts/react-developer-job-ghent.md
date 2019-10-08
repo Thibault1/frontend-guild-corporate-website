@@ -1,6 +1,6 @@
 ---
 title: React Developer Job
-subtitle: 'Brussels, Belgium | €45.000 - €55.000 per annum'
+subtitle: 'Gent, Belgium | €45.000 - €55.000 per annum'
 category:
   - About Awake
 author: 'Gent'
