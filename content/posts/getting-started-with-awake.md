@@ -7,8 +7,6 @@ author: 'Thibault Marin '
 date: 2019-10-07T01:59:00.000Z
 featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
 ---
-# React Developer Job
-
 **Let’s start with the most interesting part, why you really want to work for this company:**
 
 * A really good wage because why would you settle for less? 
