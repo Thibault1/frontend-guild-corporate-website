@@ -4,7 +4,7 @@ subtitle: 'Gent, Belgium | €45.000 - €55.000 per annum'
 category:
   - About Awake
 author: Gent
-date: 2019-10-08T01:59:00.000Z
+date: 2019-11-08T01:59:00.000Z
 featureImage: /uploads/gent.jpg
 ---
 **Let’s start with the most interesting part, why you really want to work for this company:**
