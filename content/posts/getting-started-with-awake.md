@@ -1,51 +1,38 @@
 ---
-title: Medior Frontend Developer
+title: React Developer Job
 subtitle: 'Brussels, Belgium | €45.000 - €55.000 per annum'
 category:
   - About Awake
 author: 'Thibault Marin '
-date: 2019-08-03T19:59:59.000Z
-featureImage: /uploads/getting-started-hero.jpg
+date: 2019-10-07T01:59:00.000Z
+featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
 ---
-Awake is a Nuxt.js template for generating a beautifully robust static site with blog. 
+# React Developer Job
 
-# Features
+**Let’s start with the most interesting part, why you really want to work for this company:**
 
-* Simple modern design based on the Bulma css framework (with unused css purged via [purgecss](https://www.purgecss.com/))
-* Site search
-* Statically generated API for posts and categories
-* Disqus powered comments
-* Mailchimp powered newsletter
-* Highly customizable with out of the box configurations
-* Built with performance in mind
-* Isolated Netlify CMS driver (with more CMS drivers planned for future) for easily migrating between various headless cms'
-* Images automatically resized for various screens and given srcsets
+* A really good wage because why would you settle for less? 
+* Contribute to the development of one of the most disruptive technologies of this era! 
+* Career growth & advancement potential.
+* A fresh and young company culture.
+* You get to work in a modern & open office with all the amenities a developer needs:
+  * Fresh fruit & snacks
+  * Good coffee & refreshments
+  * Afterwork beers on Friday 😉
+* You get to work close to the historical center of Ghent. 
 
-# Use Awake on Netlify
+**About the company:** 
 
-Simply click the "Deploy to Netlify" button and then configure it to fit your needs as described below.
+The company is a world-renowned company in the field of drone technology. As a React developer, your skills will be needed to develop applications for managing drone operations. You will be part of a young dynamic team of developers and be at the frontier of drone technology.
 
-[![Deploy to Netlify!!](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danielkellyio/awake-template)
+**Knowledge & skills needed:**
 
-# Configuration
-
-Site configuration is found in `/config/_siteConfig.js`. Here you can customize site settings such as the site name, layout, disqus and mailchimp setup, image sizes and more. Any of these can be setup to use environment variables if you so desire, in order to be able to configure them directly from the Netlify interface. See the setup for google analytics which already uses an environment variable as an example of this.
-
-```
-googleAnalytics: {
-    on: true,
-    id: process.env.GOOGLE_ANALYTICS_ID
-},
-```
-
-# Editing Content
-
-Posts and categories can be edited in Netlify CMS at \[your-site-url]/admin. At this time any new pages must be created in the code itself and committed to the repo
-
-# Local Development
-
-Since all content is store in the git repo with Netlify CMS, local development is a breeze. Simply install node, pull down the repo, install the dependencies with `npm install`, and run `npm run dev`.
-
-# Having Issues?
-
-If you're having any issues feel free to reach out to me on twitter [@danielkelly.io](https://twitter.com/danielkelly_io) or report an issue in [github repo](https://github.com/danielkellyio/awake-template).
+* Very comfortable with JavaScript development.
+* Backend work does not scare you (React & Node) 
+* Experience working with serverless (AWS Lambda) would be great.
+* Test-Driven Development (TDD) is important for you. 
+* Being result-oriented is key when developing applications.
+* You can easily adapt to changing circumstances and work efficiently.
+* Analytical skills, you can dissect complex problems in its elements.
+* You’re eager to learn and improve yourself.
+* It’s key that you’re sociable & a team player.
