@@ -10,7 +10,7 @@
     </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
-        <h6>Featured Jobs</h6>
+        <h6>Featured Frontend Developer Jobs</h6>
         <!-- All Posts -->
         <posts-grid />
         <div class="container-center">
