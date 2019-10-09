@@ -21,7 +21,7 @@ featureImage: /uploads/gent.jpg
 
 **About the company:**
 
-The company is a world-renowned company in the field of drone technology. As a React developer, your skills will be needed to develop applications for managing drone operations. You will be part of a young dynamic team of developers and be at the frontier of drone technology.
+The company is a game-changer in the field of payment services & webshops, a sector that is constantly evolving. This company their services are expanding exponentially, are used across different economic sectors & are becoming indispensable for both consumers and businesses. As a React developer, your skills will be needed to develop applications for payment services and webshops. You will be part of a young dynamic team of developers and be at the frontier of the online payment revolution.
 
 **Knowledge & skills needed:**
 
