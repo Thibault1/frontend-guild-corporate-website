@@ -1,6 +1,6 @@
 ---
 title: Senior Full-Stack JavaScript Developer Job
-subtitle: 'Gent, Belgium | €50.000 - €60.000 per annum'
+subtitle: 'Antwerpen, Belgium | €50.000 - €60.000 per annum'
 category:
   - Third Party Integrations
 author: Antwerpen
