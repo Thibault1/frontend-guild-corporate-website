@@ -11,10 +11,10 @@ featureImage: /uploads/medical-fg.jpg
 
 * An above-average salary.
 * Extra-legal benefits which include:
-* Opportunity to work from home
-* Hospitalization insurance
-* Company laptop (2500 Euro budget you can choose Mac or Windows)
-* Smartphone with mobile subscription 
+  * Opportunity to work from home
+  * Hospitalization insurance
+  * Company laptop (2500 Euro budget you can choose Mac or Windows)
+  * Smartphone with mobile subscription 
 * Contribute to the development of medical applications which will save lives in the future.
 * The chance to work for a leading Belgian company active in medical technology.
 * Opportunity to grow into a lead role.
