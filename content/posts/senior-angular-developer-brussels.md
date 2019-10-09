@@ -2,7 +2,7 @@
 title: Senior Full-Stack JavaScript Developer Job
 subtitle: 'Antwerpen, Belgium | €50.000 - €60.000 per annum'
 category:
-  - Third Party Integrations
+  - About Awake
 author: Antwerpen
 date: 2019-10-09T03:49:49.295Z
 featureImage: /uploads/mailchimp.jpg
