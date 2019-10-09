@@ -5,7 +5,7 @@ category:
   - About Awake
 author: Brussel
 date: 2019-10-07T03:02:00.000Z
-featureImage: /uploads/markup-hero.jpg
+featureImage: /uploads/finance-fg.jpg
 ---
 **To get you motivated for this career-boosting job opportunity:**
 

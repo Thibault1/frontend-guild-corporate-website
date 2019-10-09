@@ -5,7 +5,7 @@ category:
   - About Awake
 author: Antwerpen
 date: 2019-10-09T03:49:49.295Z
-featureImage: /uploads/mailchimp.jpg
+featureImage: /uploads/medical-fg.jpg
 ---
 **How working for this company will benefit you:**
 
