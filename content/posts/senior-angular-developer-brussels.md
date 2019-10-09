@@ -1,40 +1,39 @@
 ---
-title: Newsletter Signup
-subtitle: Awake Integrates with Mailchimp for Easy Newsletter Management
+title: Senior Full-Stack JavaScript Developer Job
+subtitle: 'Gent, Belgium | €50.000 - €60.000 per annum'
 category:
   - Third Party Integrations
-author: Daniel Kelly
-date: 2019-08-01T03:49:49.295Z
+author: Antwerpen
+date: 2019-10-09T03:49:49.295Z
 featureImage: /uploads/mailchimp.jpg
 ---
-You're publishing great content! Make sure people can get it easily right in their inbox with Awake's ready to go Mailchimp integration. Follow these instructions to get your newsletter up and running
+**How working for this company will benefit you:**
 
-## 1. Signup with Mailchimp
+* An above-average salary.
+* Extra-legal benefits which include:
+* Opportunity to work from home
+* Hospitalization insurance
+* Company laptop (2500 Euro budget you can choose Mac or Windows)
+* Smartphone with mobile subscription 
+* Contribute to the development of medical applications which will save lives in the future.
+* The chance to work for a leading Belgian company active in medical technology.
+* Opportunity to grow into a lead role.
+* Work together in a team of highly motivated developers.
+* Grow your programming skills to the next level.
 
-If you don't already have a mailchimp account, head on over to [mailchimp.com](https://mailchimp.com) and sign up (don't worry they have free tiers that will give you all you probably need).
+**About the company:**
 
-## 2. Create a New Campaign
+The company you’ll work for develops medical applications that change the lives of patients for the better. It's pioneering in different fields of medical technology and you have the chance to be part of this. The office is located in the area of Antwerp.
 
-Go to "Campaigns" in the main navigation of the Mailchimp dashboard and then click the "Create Campaign" button on the top right.
+**Knowledge & skills needed:**
 
-## 3. Start Signup Form
-
-From the modal overlay that appears choose "Signup Form", then click "Begin" under "Embedded Form"
-
-![Mailchimp create signup form](/uploads/screen-shot-2019-08-01-at-1.03.08-pm.png)
-
-## 4. Get Form Action
-
-Under "Copy/paste onto your site" you'll see the markup  for the newsletter form. Just copy the form action value from the form
-
-![copy form action from mailchimp](/uploads/screen-shot-2019-08-01-at-1.05.09-pm.png)
-
-## 5. Add the Action to the Awake Site Configuration
-
-```
-// Can be the form action on a mail chimp form, a hubspot form,
-// or any other url you want to post the form data tomailchimp: {
-    on: true,
-    formAction:'enter url here'
-}
-```
+* Solid experience in Typescript and Javascript (ES2015, ES6).
+* Knowledge from different Web frameworks, specifically Vue with experience in State management. 
+* API integration and asynchronous request handling.
+* Experience with Bootstrap, Build tools (inc. Webpack), Node.js, npm, and Git/Version Control.
+* Unit testing, with Jest, Mocha or other frameworks.
+* You have an interest in medical technology & want to contribute to developing life-saving applications.
+* You’ll have to work in a scrum team so being a team player is important.
+* You’re motivated to learn & constantly improve your programming skills.
+* You’re able to get creative & present unique solutions to unique problems.
+* It’s important to be accurate and precise when developing medical applications.
