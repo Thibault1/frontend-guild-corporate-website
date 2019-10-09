@@ -33,3 +33,14 @@ The financial institution you’ll work for is known for its great company cultu
 * When developing, setbacks and/or changing requirements are inevitable so flexibility is needed.
 * You’re focused and goal-oriented. 
 * You’re capable of both working in team and individually.
+
+If your interested in this job, don’t hesitate and contact us!
+
+Get in touch with us and we can discuss the details while enjoying a cup of coffee.
+
+If this job is not a good match for you.
+
+We're always searching motivated frontend developers in Belgium. Be sure to contact us to find which other Belgium Frontend Developer jobs we have for you.
+
+thibault@frontendguild.be\
++32 493 84 98 73
