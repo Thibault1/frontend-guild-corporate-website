@@ -30,6 +30,6 @@ export const getFormattedDate = (date) => {
   ]
   const dateObj = new Date(date)
   return `${
-    months[dateObj.getMonth()]
+    months[dateObj.getMonth() + 1]
   } ${dateObj.getDate()}, ${dateObj.getFullYear()}`
 }
