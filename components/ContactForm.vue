@@ -1,8 +1,8 @@
 <template>
   <form
-    name="fg-contact"
+    name="contact"
     method="POST"
-    action="/fg-contact"
+    action="/contact"
     netlify-honeypot="bot-field"
     data-netlify="true"
     enctype="multipart/form-data"
