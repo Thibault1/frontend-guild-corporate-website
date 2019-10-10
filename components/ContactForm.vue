@@ -1,9 +1,9 @@
 <template>
   <form
-    name="contact"
+    netlify
     method="POST"
+    name="contact"
     netlify-honeypot="bot-field"
-    data-netlify="true"
     enctype="multipart/form-data"
   >
     <!-- First name -->
