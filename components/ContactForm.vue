@@ -2,7 +2,7 @@
   <form
     name="fg-contact"
     method="POST"
-    action="https://www.frontendguild.be/contact/"
+    action="/fg-contact"
     netlify-honeypot="bot-field"
     data-netlify="true"
     enctype="multipart/form-data"
