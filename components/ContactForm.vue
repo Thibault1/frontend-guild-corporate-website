@@ -2,9 +2,9 @@
   <form name="contact" method="POST" data-netlify="true">
     <!-- First name -->
     <div class="field">
-      <label class="label is-medium">Name *</label>
+      <label class="label is-medium">Name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" name="name" required />
+        <input class="input is-medium" type="text" name="name" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -12,9 +12,9 @@
     </div>
     <!-- Email -->
     <div class="field">
-      <label class="label is-medium">Email *</label>
+      <label class="label is-medium">Email</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="email" name="email" required />
+        <input class="input is-medium" type="email" name="email" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="envelope" />
         </span>
