@@ -4,6 +4,7 @@
     method="POST"
     netlify-honeypot="bot-field"
     data-netlify="true"
+    enctype="multipart/form-data"
   >
     <!-- First name -->
     <div class="field">
