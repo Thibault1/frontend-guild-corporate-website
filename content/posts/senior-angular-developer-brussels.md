@@ -4,7 +4,7 @@ subtitle: 'Antwerpen, Belgium | €50.000 - €60.000 per annum'
 category:
   - About Awake
 author: Antwerpen
-date: 2019-10-09T03:49:49.295Z
+date: 2019-11-04T03:49:49.295Z
 featureImage: /uploads/medical-fg.jpg
 ---
 **How working for this company will benefit you:**
