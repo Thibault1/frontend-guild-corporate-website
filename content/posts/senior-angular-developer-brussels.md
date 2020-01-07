@@ -4,13 +4,14 @@ subtitle: 'Antwerpen, Belgium | €50.000 - €60.000 per annum'
 category:
   - About Awake
 author: Antwerpen
-date: 2019-11-04T03:49:49.295Z
+date: 2020-01-06T03:49:49.295Z
 featureImage: /uploads/medical-fg.jpg
 ---
 **How working for this company will benefit you:**
 
 * An above-average salary.
 * Extra-legal benefits which include:
+
   * Opportunity to work from home
   * Hospitalization insurance
   * Company laptop (2500 Euro budget you can choose Mac or Windows)
