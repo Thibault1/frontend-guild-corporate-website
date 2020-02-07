@@ -10,16 +10,15 @@
         <div class="content">
           <h3>Do you have what it takes to become a Frontend Guild member?</h3>
           <p>
-            Are you ready to take your Frontend Development Career to the next
-            level?
+            Are you ready to take your Development Career to the next level?
           </p>
           <p>
-            Then look no further, we’re always looking for passionate JavaScript
-            developers to join Frontend Guild.
+            Then look no further, we’re always looking for passionate developers
+            to join Frontend Guild.
           </p>
           <p>
             We will provide you with inside market information and connect you
-            with the hottest JavaScript jobs.
+            with the hottest Frontend, Full Stack and Backend jobs.
           </p>
           <p>
             Let's meetup for a cup of coffee and have a talk about your career
@@ -29,7 +28,7 @@
           <p><strong>Our Developers Enjoy:</strong></p>
 
           <ul>
-            <li>A strong network of fellow (Senior) Frontend Developers.</li>
+            <li>A strong network of fellow (Senior) Developers.</li>
             <li>
               Monthly meetups with pizza, beers and hot JavaScript topics.
             </li>
@@ -37,17 +36,25 @@
               The highest possible market rates.
             </li>
             <li>
-              Being a part of the hottest JavaScript community from Belgium.
+              Being a part of the hottest IT community from Belgium.
             </li>
           </ul>
           <p>
             <strong>Who we welcome to Frontend Guild?</strong>
           </p>
           <ul>
-            <li>A student who’s looking for a first job.</li>
-            <li>A freelancer who’s looking for a new adventure.</li>
+            <li>UI / UX Experts</li>
             <li>
-              An employee who’s ready to boost his/her career to the next level.
+              Frontend Developers that have experience in at least one of the
+              major Frontend Frameworks: (React, Angular or Vue)
+            </li>
+            <li>
+              Full Stack Developers that love combining Frontend and Backend
+              Technologies.
+            </li>
+            <li>
+              Backend Developers: .NET, Java, Python, PHP, and Node.js
+              Developers
             </li>
           </ul>
         </div>

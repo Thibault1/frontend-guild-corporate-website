@@ -10,14 +10,14 @@
     </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
-        <h6>Featured Frontend Developer Jobs</h6>
+        <h6>Featured Developer Jobs</h6>
         <!-- All Posts -->
         <posts-grid />
         <div class="container-center">
-          <h6>Frontend First</h6>
+          <h6>Developer First</h6>
           <p>
-            Frontend Guild is specialized in Frontend and Node.js development.
-            We decided to devote our time and skills to solve our customer’s
+            Frontend Guild is specialized in Web and Application development. We
+            decided to devote our time and skills to solve our customer’s
             complex tasks concerning the development of (web) apps that stand
             out from there competitors. This is our love and passion; this is
             our occupation and way of life.
@@ -26,14 +26,14 @@
           <p>
             At Frontend Guild, we distinguish ourselves from other companies by
             being experts in our discipline. We strongly believe that one can’t
-            be an expert in everything and that’s why we focus only on
-            JavaScript related technologies.
+            be an expert in everything and that’s why we focus only on Web and
+            Application Development.
           </p>
           <br />
           <p>
             We’re proud that we talk the same language as developers, which
-            makes it more easy to understand the needs & expectations of hiring
-            managers and Frontend Engineers.
+            makes it easier to understand the needs & expectations of hiring
+            managers and Engineers.
           </p>
           <div class="logo-container">
             <img src="/javascript.svg" alt="javascript logo" />

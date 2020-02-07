@@ -30,7 +30,7 @@
                   Kleinvleeshuissteeg 24/301<br />
 
                   9000 Gent<br />
-                  +32 493 84 98 73<br />
+                  +32 478 10 50 47<br />
                   info@frontendguild.be
                 </p>
                 <p>
