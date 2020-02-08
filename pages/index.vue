@@ -16,11 +16,11 @@
         <div class="container-center">
           <h6>Developer First</h6>
           <p>
-            Frontend Guild is specialized in Web and Application development. We
+            Frontend Guild is specialized in (Web) Application Development. We
             decided to devote our time and skills to solve our customer’s
-            complex tasks concerning the development of (web) apps that stand
-            out from there competitors. This is our love and passion; this is
-            our occupation and way of life.
+            complex tasks concerning the development of apps that stand out from
+            there competitors. This is our love and passion; this is our
+            occupation and way of life.
           </p>
           <br />
           <p>
