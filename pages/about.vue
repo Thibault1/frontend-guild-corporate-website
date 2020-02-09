@@ -2,7 +2,7 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="Why working together with us will benefit you."
-      subtitle="We are a collective of passionated developers."
+      subtitle="We are a collective of passionated software developers."
       image="/about-fg.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -16,9 +16,9 @@
           </p>
           <p>
             Frontend Guild is a specialized consultancy and staffing company for
-            all your development needs. Our primary aim is to help Frontend,
-            Full-Stack, and Backend Developers to work together with the very
-            best <strong>top-notch</strong> companies from Belgium.
+            all your software development needs. Our primary aim is to help
+            Frontend, Full-Stack, and Backend Developers to work together with
+            the very best <strong>top-notch</strong> companies from Belgium.
           </p>
           <p>
             At Frontend Guild, we distinguish ourselves from other companies by
@@ -45,8 +45,7 @@
           </p>
           <p>
             At Frontend Guild, the developer comes first: we always think about
-            the best work-life balance possible for our (Web) Application
-            Developers.
+            the best work-life balance possible for our Software Engineers.
           </p>
         </div>
       </template>

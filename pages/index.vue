@@ -33,7 +33,7 @@
           <p>
             We’re proud that we talk the same language as developers, which
             makes it easier to understand the needs & expectations of hiring
-            managers and Engineers.
+            managers and engineers.
           </p>
           <div class="logo-container">
             <img src="/javascript.svg" alt="javascript logo" />

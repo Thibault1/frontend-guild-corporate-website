@@ -10,7 +10,8 @@
         <div class="content">
           <h3>Do you have what it takes to become a Frontend Guild member?</h3>
           <p>
-            Are you ready to take your Development Career to the next level?
+            Are you ready to take your Software Development Career to the next
+            level?
           </p>
           <p>
             Then look no further, we’re always looking for passionate developers
