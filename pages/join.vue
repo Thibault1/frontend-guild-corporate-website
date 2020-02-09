@@ -19,7 +19,7 @@
           </p>
           <p>
             We will provide you with inside market information and connect you
-            with the hottest Frontend, Full Stack and Backend jobs.
+            with the hottest Frontend, Full Stack and UI/UX jobs.
           </p>
           <p>
             Let's meetup for a cup of coffee and have a talk about your career
@@ -31,7 +31,7 @@
           <ul>
             <li>A strong network of fellow (Senior) Developers.</li>
             <li>
-              Monthly meetups with pizza, beers and hot JavaScript topics.
+              Monthly meetups with pizza, beers and hot topics.
             </li>
             <li>
               The highest possible market rates.
