@@ -7,9 +7,6 @@
       >
         <strong>Location:</strong> {{ author }}
       </span>
-      <span v-if="date" class="date-wrapper">
-        <strong>Published on:</strong> {{ date }}
-      </span>
     </site-hero>
     <main-section :one-column-constrained="true">
       <template v-slot:default>
@@ -17,7 +14,7 @@
           <markdown :markdown="$store.state.content" />
           <div class="other-posts">
             <h6 class="subtitle is-size-4">
-              Related Frontend Developer Jobs
+              Related Jobs
             </h6>
             <!-- Related Posts -->
             <posts-grid :number="3" :category="category" :exclude="slug" />
