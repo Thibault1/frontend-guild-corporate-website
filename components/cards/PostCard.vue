@@ -13,7 +13,7 @@
       v-if="author && $siteConfig.posts.displayAuthor"
       class="author-wrapper"
     >
-      <strong>Location:</strong> {{ author }} |
+      <strong>Location:</strong> {{ author }}
     </span>
   </generic-card>
 </template>
