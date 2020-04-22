@@ -15,9 +15,6 @@
     >
       <strong>Location:</strong> {{ author }} |
     </span>
-    <span v-if="date" class="date-wrapper">
-      <strong>Published on:</strong> {{ datePretty }}
-    </span>
   </generic-card>
 </template>
 
