@@ -1,19 +1,18 @@
 ---
 title: Senior Angular Developer Job
-subtitle: 'Brussel, Belgium | €65.000 - €75.000 per annum'
+subtitle: 'Brussel, Belgium | €550 - €750 per day'
 category:
   - About Awake
 author: Brussel
-date: 2019-02-07T03:02:00.000Z
+date: 2019-04-18T03:02:00.000Z
 featureImage: /uploads/finance-fg.jpg
 ---
-**To get you motivated for this career-boosting job opportunity:**
+**To get you motivated for this job opportunity:**
 
-* A really good wage.
+* More then market rate
 * Work for one of the most respected financial institutions from Belgium.
-* A yearly training budget is offered.
 * Technology is becoming increasingly important for the financial world and you have the opportunity to improve their banking applications.
-* The chance to grow both as a developer and in the organisation. 
+* The chance to coach junior developers. 
 * Work in the European capital which is Brussels: rich of history & culture and one of the financial hubs of Europe.
 
 **About the financial institution:** 
@@ -36,11 +35,11 @@ The financial institution you’ll work for is known for its great company cultu
 
 If your interested in this job, don’t hesitate and contact us!
 
-Get in touch with us and we can discuss the details while enjoying a cup of coffee.
+Get in touch with us and we can discuss the details.
 
 If this job is not a good match for you.
 
-We're always searching motivated frontend developers in Belgium. Be sure to contact us to find which other Belgium Frontend Developer jobs we have for you.
+We're always searching motivated freelance developers in Belgium. Be sure to contact us to find which other Jobs we have for you.
 
 thibault@frontendguild.be\
-+32 493 84 98 73
++32 478 10 50 47
