@@ -20,7 +20,7 @@
         <posts-grid />
         <div class="container-center">
           <h6>We build future proof digital applications and services.</h6>
-          <br />
+
           <p>
             Together with our clients we design, develop, and architecture
             enterprise-scale apps and services that answer today’s demanding
