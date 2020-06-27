@@ -2,7 +2,7 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="Why working together with us will benefit you."
-      subtitle="We are a collective of passionate software developers."
+      subtitle="We are passionate Software Engineers."
       image="/about-fg.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -15,24 +15,16 @@
             experience.
           </p>
           <p>
-            Frontend Guild is a specialized consultancy and staffing company for
-            all your software development needs. Our primary aim is to help
-            UI/UX Desginers, Frontend- and Full Stack Developers to work
-            together with the very best <strong>top-notch</strong> companies
-            from Belgium.
+            Frontend Guild is a specialized consultancy company for all your
+            software development needs. Our primary aim is to provide the
+            Belgium Tech Industry with capable and motivated Engineers.
           </p>
-          <p>
-            At Frontend Guild, we distinguish ourselves from other companies by
-            being experts in our discipline. We strongly believe that one can’t
-            be an expert in everything and that’s why we focus only on web and
-            application design & development.
-          </p>
+
           <h3>How do we do it?</h3>
           <p>
             As a company, we have a very rigorous screening process to identify
-            the best candidates. We do
-            <strong>in-house technical screenings</strong> with all our
-            candidates, pair programming tests are an essential part of our
+            the best candidates. We do in-house technical screenings with all
+            our candidates, pair programming tests are an essential part of our
             recruitment process.
           </p>
           <p>
@@ -41,12 +33,10 @@
             solvers with passion and drive — the types of people we want to work
             with.
           </p>
-          <p>
-            Next to consultancy we provide permanent placements for our clients.
-          </p>
+
           <p>
             At Frontend Guild, the developer comes first: we always think about
-            the best work-life balance possible for our Software Engineers.
+            the best work-life balance possible for our Engineers.
           </p>
         </div>
       </template>
