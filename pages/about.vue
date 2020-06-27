@@ -17,7 +17,7 @@
           <p>
             Frontend Guild is a specialized consultancy company for all your
             software development needs. Our primary aim is to provide the
-            Belgium Tech Industry with capable and motivated Engineers.
+            Belgian Tech Industry with capable and motivated Engineers.
           </p>
 
           <h3>How do we do it?</h3>
