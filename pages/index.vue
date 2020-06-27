@@ -20,33 +20,24 @@
         <posts-grid />
         <div class="container-center">
           <h6>We build future proof digital applications and services.</h6>
+          <br />
           <p>
             Together with our clients we design, develop, and architecture
             enterprise-scale apps and services that answer today’s demanding
             expectations.
           </p>
-
+          <br />
           <p>
             This results in robust enterprise-scale applications that meet the
             highest standards.
           </p>
-
+          <br />
           <p>
             We are implementing innovation by agile software development,
             thorough testings methods (TDD, BDD, E2E Testing), and design
             patterns.
           </p>
-          <p>
-            We are specialized in the following technologies:
-          </p>
-          <ol>
-            <li>#JavaScript #React #Vue #Angular #Redux #TypeScript</li>
-            <li>#.NET #Java #Node.js #PHP #Python</li>
-            <li>#Kubernetes #Docker #AWS #Azure</li>
-            <li>#Android #iOS #React-Native #Xamarin</li>
-            <li>#UI #UX</li>
-          </ol>
-
+          <br />
           <p>
             We are always aiming for longterm collaborations with our customers
             so we can define together a robust and future proof strategy.
