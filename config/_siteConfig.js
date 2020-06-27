@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Frontend Guild',
-  tagline: 'Belgian IT Experts',
+  tagline: 'Full Stack Engineering Experts',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -23,8 +23,8 @@ export default {
       link: '/about'
     },
     {
-      name: 'Join the Guild',
-      link: '/join'
+      name: 'Services',
+      link: '/services'
     },
     {
       name: 'Contact',

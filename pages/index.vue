@@ -3,7 +3,7 @@
     <site-hero :title="title" :subtitle="subtitle" image="/home-fg.jpg">
       <button
         class="button is-primary"
-        @click="
+        onclick="
           window.open(
             'https://www.linkedin.com/company/frontendguild/',
             '_blank'
