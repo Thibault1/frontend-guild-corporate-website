@@ -1,7 +1,7 @@
 <template>
   <footer class="site-footer">
     {{ $siteConfig.siteName }} BV &copy; {{ new Date().getFullYear() }} - All
-    Rights Reserved
+    Rights Reserved - <a href="/privacy">Privacy Policy</a>
   </footer>
 </template>
 
