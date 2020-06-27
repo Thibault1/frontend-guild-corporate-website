@@ -19,27 +19,39 @@
         <!-- All Posts -->
         <posts-grid />
         <div class="container-center">
-          <h6>Developer First</h6>
+          <h6>We build future proof digital applications and services.</h6>
           <p>
-            Frontend Guild is specialized in Frontend & Full Stack Development.
-            We decided to devote our time and skills to solve our customer’s
-            complex tasks concerning the design & development of (web) apps that
-            stand out from their competitors. This is our love and passion; this
-            is our occupation and way of life.
+            Together with our clients we design, develop, and architecture
+            enterprise-scale apps and services that answer today’s demanding
+            expectations.
           </p>
-          <br />
+
           <p>
-            At Frontend Guild, we distinguish ourselves from other companies by
-            being experts in our discipline. We strongly believe that one can’t
-            be an expert in everything and that’s why we focus only on UI/UX
-            Design, Frontend- and Backend Development.
+            This results in robust enterprise-scale applications that meet the
+            highest standards.
           </p>
-          <br />
+
           <p>
-            We’re proud that we talk the same language as developers, which
-            makes it easier to understand the needs & expectations of hiring
-            managers and engineers.
+            We are implementing innovation by agile software development,
+            thorough testings methods (TDD, BDD, E2E Testing), and design
+            patterns.
           </p>
+          <p>
+            We are specialized in the following technologies:
+          </p>
+          <ol>
+            <li>#JavaScript #React #Vue #Angular #Redux #TypeScript</li>
+            <li>#.NET #Java #Node.js #PHP #Python</li>
+            <li>#Kubernetes #Docker #AWS #Azure</li>
+            <li>#Android #iOS #React-Native #Xamarin</li>
+            <li>#UI #UX</li>
+          </ol>
+
+          <p>
+            We are always aiming for longterm collaborations with our customers
+            so we can define together a robust and future proof strategy.
+          </p>
+
           <div class="logo-container">
             <img src="/javascript.svg" alt="javascript logo" />
             <img src="/vue.svg" alt="vue logo" />
