@@ -3,9 +3,14 @@
     <site-hero :title="title" :subtitle="subtitle" image="/home-fg.jpg">
       <button
         class="button is-primary"
-        @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
+        @click="
+          window.open(
+            'https://www.linkedin.com/company/frontendguild/',
+            '_blank'
+          )
+        "
       >
-        Subscribe To Newsletter
+        Follow us on LinkedIn
       </button>
     </site-hero>
     <main-section theme="one-column">
