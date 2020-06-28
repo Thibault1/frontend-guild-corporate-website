@@ -15,9 +15,6 @@
     </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
-        <h6>Featured Developer Jobs</h6>
-        <!-- All Posts -->
-        <posts-grid />
         <div class="container-center">
           <h6>We build future proof digital applications and services.</h6>
           <p>
@@ -41,42 +38,89 @@
             We are always aiming for longterm collaborations with our customers
             so we can define together a robust and future proof strategy.
           </p>
-
+        </div>
+        <div class="container-center margin-top">
+          <h6>We love working with</h6>
           <div class="logo-container">
+            <p>Frontend Technologies</p>
             <img src="/javascript.svg" alt="javascript logo" />
             <img src="/vue.svg" alt="vue logo" />
             <img src="/angular.svg" alt="angular logo" />
             <img src="/react.svg" alt="react logo" />
+          </div>
+          <div class="logo-container">
+            <p>Backend Technologies</p>
+            <img src="/python.svg" alt="python logo" />
+            <img src="/php.svg" alt="php logo" />
+            <img src="/java.svg" alt="java logo" />
+            <img src="/c-sharp.svg" alt="c# logo" />
             <img src="/node.svg" alt="node logo" />
+            <img src="/ruby-on-rails.svg" alt="ruby on rails logo" />
+          </div>
+          <div class="logo-container">
+            <p>Cloud Technologies</p>
+            <img src="/kubernetes.svg" alt="kubernetes logo" />
+            <img src="/docker.svg" alt="docker logo" />
+            <img src="/aws.svg" alt="aws logo" />
+            <img src="/azure.svg" alt="azure logo" />
+            <img src="/git.svg" alt="git logo" />
+            <img src="/travis.svg" alt="travis logo" />
+          </div>
+          <div class="logo-container">
+            <p>Mobile Technologies</p>
+            <img src="/xamarin.svg" alt="xamarin logo" />
+            <img src="/react-native.svg" alt="react native logo" />
+            <img src="/ios.svg" alt="ios logo" />
+            <img src="/android.svg" alt="android logo" />
           </div>
         </div>
         <div class="container-center margin-top">
-          <!--  <h6>What others say about us</h6>
+          <h6>We love working for</h6>
+          <div class="logo-container">
+            <img src="/bedrijven/zimmo.png" alt="zimmo logo" />
+            <img src="/bedrijven/mediahuis.jpg" alt="mediahuis logo" />
+            <img src="/bedrijven/fortis.jpg" alt="fortis logo" />
+            <img src="/bedrijven/vrt.png" alt="vrt logo" />
+            <img src="/bedrijven/ag.jpg" alt="ag insurance logo" />
+          </div>
+          <br />
+        </div>
+        <div class="container-center">
+          <h6>We love our clients and they love us!</h6>
           <carousel :per-page="1" :mouse-drag="false">
             <slide>
-              "Maxim was the perfect help to find my dream JavaScript job. -
-              Kenny Debouvry."
+              "Maxim was the perfect help to find my dream JavaScript job." -
+              <strong>Kenny Debouvry</strong>, Program mangager @ Zimmo.
+            </slide>
+            <slide>
+              "It was a pleaseure to work with Thibault he really knew what he
+              was talking about. And provided me with a good world class
+              frontend developer." - <strong>Xavier Vancompernolle</strong>, CTO
+              @ Mediahuis.
             </slide>
             <slide>
               "It was a pleaseure to work with Thibault he really knew what he
               was talking about. And provided me with a good world class
               frontend developer. - Xavier Vancompernolle."
             </slide>
-          </carousel> -->
+            <slide>
+              "It was a pleaseure to work with Thibault he really knew what he
+              was talking about. And provided me with a good world class
+              frontend developer. - Xavier Vancompernolle."
+            </slide>
+          </carousel>
         </div>
       </template>
       <template v-slot:sidebar>
         Nothing here
       </template>
     </main-section>
-    <news-letter-form-modal />
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
 import { setPageData } from '../helper'
-import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 
 export default {
   name: 'HomePage',
@@ -84,9 +128,6 @@ export default {
     return {
       title: `Home | ${this.$siteConfig.siteName}`
     }
-  },
-  components: {
-    NewsLetterFormModal
   },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])
