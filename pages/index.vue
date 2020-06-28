@@ -85,7 +85,7 @@
           </div>
           <br />
         </div>
-        <div class="container-center">
+        <!--<div class="container-center">
           <h6>We love our clients and they love us!</h6>
           <carousel :per-page="1" :mouse-drag="false">
             <slide>
@@ -109,7 +109,7 @@
               frontend developer. - Xavier Vancompernolle."
             </slide>
           </carousel>
-        </div>
+        </div>-->
       </template>
       <template v-slot:sidebar>
         Nothing here
