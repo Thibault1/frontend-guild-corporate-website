@@ -20,16 +20,6 @@
         </span>
       </div>
     </div>
-    <!-- CV -->
-    <div class="field">
-      <label class="label is-medium">CV</label>
-      <div class="control has-icons-left">
-        <input class="input is-medium" type="file" name="cv" />
-        <span class="icon is-small is-left">
-          <font-awesome-icon icon="briefcase" />
-        </span>
-      </div>
-    </div>
     <!-- Message -->
     <div class="field">
       <label class="label is-medium">Your message</label>
