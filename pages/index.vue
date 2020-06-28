@@ -76,7 +76,7 @@
         </div>
         <div class="container-center margin-top">
           <h6>We love working for</h6>
-          <div class="logo-container">
+          <div class="logo-container companies">
             <img src="/bedrijven/zimmo.png" alt="zimmo logo" />
             <img src="/bedrijven/mediahuis.jpg" alt="mediahuis logo" />
             <img src="/bedrijven/fortis.jpg" alt="fortis logo" />
