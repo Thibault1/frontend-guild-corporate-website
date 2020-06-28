@@ -47,6 +47,7 @@
             <img src="/vue.svg" alt="vue logo" />
             <img src="/angular.svg" alt="angular logo" />
             <img src="/react.svg" alt="react logo" />
+            <img src="/redux.svg" alt="redux logo" />
           </div>
           <div class="logo-container">
             <p>Backend Technologies</p>
