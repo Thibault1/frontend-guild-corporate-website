@@ -2,7 +2,7 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="Why working together with us will benefit you."
-      subtitle="We are passionate Software Engineers."
+      subtitle="IT Consultancy where quality & fairness really matters."
       image="/about-fg.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
