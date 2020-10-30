@@ -16,7 +16,7 @@
     <main-section theme="one-column">
       <template v-slot:default>
         <div class="container-center">
-          <h6>We build future proof digital applications and services.</h6>
+          <h6>Innovative Digital Applications & Services</h6>
           <p>
             Together with our clients we design, develop and architecture
             enterprise-scale apps & services that answer today’s demanding
@@ -24,19 +24,14 @@
           </p>
           <br />
           <p>
-            This results in robust enterprise-scale applications that meet the
-            highest standards.
+            Implementing innovation by agile software development, thorough
+            testing methods (TDD, BDD, E2E Testing), and design patterns results
+            in robust enterprise-scale applications.
           </p>
           <br />
           <p>
-            We are implementing innovation by agile software development,
-            thorough testings methods (TDD, BDD, E2E Testing), and design
-            patterns.
-          </p>
-          <br />
-          <p>
-            We are always aiming for longterm collaborations with our customers
-            so we can define together a robust and future proof strategy.
+            We consistently aim for long term collaborations with our customers
+            and define together a solid & future proof strategy.
           </p>
         </div>
         <div class="container-center margin-top">

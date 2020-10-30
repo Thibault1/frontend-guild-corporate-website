@@ -10,33 +10,53 @@
         <div class="content">
           <h3>We provide External Software Engineers.</h3>
           <p>
-            Modern enterprises rely heavily on skilled IT Engineers, we can help
-            you with additional capacity for your software development teams.
+            For modern enterprises its paramount to have access to skilled IT
+            Engineers to engage in their projects & thats where Frontend Guild
+            comes in:
           </p>
           <p>
-            Frontend Guild is a specialized consultancy company for all your
-            software development needs, we provide the Belgian Tech Industry
-            with capable and motivated Engineers.
+            Frontend Guild is an IT consultancy company, specialized in web and
+            application development, with the goal to support the IT teams of
+            our clients with motivated & competent engineers.
           </p>
 
           <p>
-            Our Software Engineers are ready to collaborate with your team to
-            create applications and services that stand out from the competition
-            and support you with your digital transformations journeys.
+            Our engineers are ready to collaborate with your team to create
+            applications & services you envision and support your digital
+            transformation journey.
           </p>
           <p>
-            As a company, we have a very rigorous screening process to identify
-            and attract the best engineers. We do in-house technical screenings
-            with all our candidates, pair programming tests are an essential
-            part of our recruitment process.
+            We strive to provide a quality service/experience for both our
+            clients and engineers:
           </p>
+          <ul>
+            <li>
+              Support clients during the intake process with in-house technical
+              screenings & pair programming tests.
+            </li>
+            <li>
+              Enabling clients to identify the engineers that best match their
+              requirements.
+            </li>
+            <li>
+              Provide continuous support throughout contract duration.
+            </li>
+            <li>
+              Offering engineers projects that live up to their ambitions & let
+              them grow professionally.
+            </li>
+            <li>
+              Identifying the ideal work-life balance for each of our engineers.
+            </li>
+            <li>
+              Give our developers the necessary goodies from time to time to
+              keep them healthy & motivated ;)
+            </li>
+          </ul>
           <p>
-            We are experts in our domain, and we look for great problem solvers
-            with passion and drive — the types of people we want to work with.
-          </p>
-          <p>
-            At Frontend Guild, the developer comes first: we always think about
-            the best work-life balance possible for our Engineers.
+            By doing this, we aspire to provide our engineers with challenging
+            opportunities & support our clients with the talent their projects
+            need.
           </p>
         </div>
       </template>
