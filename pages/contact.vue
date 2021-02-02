@@ -17,7 +17,7 @@
                 Let's work together.
               </p>
               <figure class="image is-1by1 ">
-                <img src="/profile-pic.jpg" alt="profile pic" />
+                <img src="/profile-pic.png" alt="profile pic" />
               </figure>
               <br />
               <div class="content">
