@@ -81,31 +81,15 @@
           </div>
           <br />
         </div>
-        <!--<div class="container-center">
-          <h6>We love our clients and they love us!</h6>
-          <carousel :per-page="1" :mouse-drag="false">
-            <slide>
-              "Maxim was the perfect help to find my dream JavaScript job." -
-              <strong>Kenny Debouvry</strong>, Program mangager @ Zimmo.
-            </slide>
-            <slide>
-              "It was a pleaseure to work with Thibault he really knew what he
-              was talking about. And provided me with a good world class
-              frontend developer." - <strong>Xavier Vancompernolle</strong>, CTO
-              @ Mediahuis.
-            </slide>
-            <slide>
-              "It was a pleaseure to work with Thibault he really knew what he
-              was talking about. And provided me with a good world class
-              frontend developer. - Xavier Vancompernolle."
-            </slide>
-            <slide>
-              "It was a pleaseure to work with Thibault he really knew what he
-              was talking about. And provided me with a good world class
-              frontend developer. - Xavier Vancompernolle."
-            </slide>
-          </carousel>
-        </div>-->
+        <div class="container-center">
+          <h6>Meet our techees</h6>
+          <VueSlickCarousel :arrows="true" :dots="true">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+          </VueSlickCarousel>
+        </div>
       </template>
       <template v-slot:sidebar>
         Nothing here
@@ -116,7 +100,10 @@
 
 <script>
 import { mapState } from 'vuex'
+import VueSlickCarousel from 'vue-slick-carousel'
 import { setPageData } from '../helper'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
   name: 'HomePage',
@@ -125,6 +112,7 @@ export default {
       title: `${this.$siteConfig.siteName} - Full Stack Engineering Experts`
     }
   },
+  components: { VueSlickCarousel },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])
   },
