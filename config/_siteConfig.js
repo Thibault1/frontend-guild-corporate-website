@@ -23,17 +23,24 @@ export default {
       link: '/'
     },
     {
+      name: 'Hiring',
+      link: '/about'
+    },
+    {
+      name: 'Stories',
+      link: '/about'
+    },
+    {
       name: 'About',
+      link: '/about'
+    },
+    {
+      name: 'News',
       link: '/about'
     },
     {
       name: 'Contact',
       link: '/contact'
-    },
-    {
-      name: 'LinkedIn',
-      link: 'https://www.linkedin.com/company/frontendguild/',
-      target: '_blank'
     }
   ],
   hero: {

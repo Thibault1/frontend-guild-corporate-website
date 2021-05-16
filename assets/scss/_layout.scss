@@ -88,6 +88,7 @@ h6, h3, article .title, .label {
 .navbar {
   background-color: #384e85 !important;
   border: none !important;
+  padding-right: 1.5rem !important;
 }
 
 .control button {
@@ -98,8 +99,34 @@ h6, h3, article .title, .label {
   color: #ffffff !important;
 }
 
+.navbar-burger {
+  color: #ffffff !important;
+  margin-right: -1.5rem !important;
+}
+
+.navbar-menu.is-active {
+  background-color: #384e85 !important;
+}
+
 .navbar-end li a:hover {
   color: #41b4e7 !important;
+}
+
+.navbar-dropdown {
+  background-color: #384e85 !important;
+  border-top: 0 !important;
+}
+
+.navbar-item.has-dropdown {
+  display: block !important;
+  line-height: 1.5 !important;
+  padding: 1.5rem 0.75rem 0 0.75rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-item.has-dropdown {    
+    padding: 0.5rem 0.75rem 0 0.75rem !important;
+  }
 }
 
 footer a {

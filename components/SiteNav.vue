@@ -24,31 +24,53 @@
       }"
     >
       <ul class="navbar-end">
-        <li
-          v-for="item in $siteConfig.mainMenu"
-          :key="item.link"
-          class="navbar-item"
-          @click="active = false"
-        >
-          <component
-            :is="item.link.startsWith('http') ? 'a' : 'nuxt-link'"
-            :href="item.link"
-            :to="item.link"
-            :target="item.target ? item.target : '_self'"
-          >
-            {{ item.name }}
-          </component>
+        <li class="navbar-item">
+          <a href="/">
+            Home
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="/hiring">
+            Hiring
+          </a>
+        </li>
+        <li class="navbar-item has-dropdown is-hoverable">
+          <a>
+            Stories
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Client stories
+            </a>
+            <a class="navbar-item">
+              Tech stories
+            </a>
+          </div>
+        </li>
+        <li class="navbar-item">
+          <a href="/about">
+            About
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="/news">
+            News
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="/contact">
+            Contact
+          </a>
         </li>
       </ul>
     </div>
   </nav>
 </template>
 <script>
-import SiteSearch from '~/components/SiteSearch'
 import HamburgerButton from '~/components/HamburgerButton'
 export default {
   name: 'SiteNav',
-  components: { SiteSearch, HamburgerButton },
+  components: { HamburgerButton },
   data() {
     return {
       active: false
