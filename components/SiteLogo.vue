@@ -1,6 +1,6 @@
 <template>
   <div class="logo-wrapper">
-    <img src="/Frontend-Guild-Logo-Horizontal.png" />
+    <img src="/tech-guild-logo.png" />
   </div>
 </template>
 <script>
@@ -24,12 +24,10 @@ export default {
 <style lang="scss">
 .logo-wrapper {
   position: relative;
-  height: 80px;
   overflow: hidden;
-  width: 200px;
   img {
     display: block;
-    height: 90px;
+
     max-height: initial;
   }
 }

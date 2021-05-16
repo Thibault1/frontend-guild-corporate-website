@@ -67,7 +67,7 @@
 export default {
   head() {
     return {
-      title: `About | ${this.$siteConfig.siteName}`
+      title: `${this.$siteConfig.siteName} - Full Stack Engineering Experts`
     }
   }
 }

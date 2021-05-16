@@ -122,7 +122,7 @@ export default {
   name: 'HomePage',
   head() {
     return {
-      title: `Home | ${this.$siteConfig.siteName}`
+      title: `${this.$siteConfig.siteName} - Full Stack Engineering Experts`
     }
   },
   computed: {

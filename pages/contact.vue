@@ -60,7 +60,7 @@ import ContactForm from '~/components/ContactForm'
 export default {
   head() {
     return {
-      title: `Contact | ${this.$siteConfig.siteName}`
+      title: `${this.$siteConfig.siteName} - Full Stack Engineering Experts`
     }
   },
   components: { ContactForm }

@@ -74,24 +74,37 @@ h6 {
 
 body {
   font-family: 'Encode Sans', Arial, Helvetica, sans-serif;
-  color: #192D41 !important;
+  color: #5c7073 !important;
 }
 
 .logo-container {
   margin-top: 15px;
 }
 
-.navbar-end li a {
-  color: #192D41 !important;
+h6, h3, article .title, .label {
+  color: #384e85 !important;
 }
 
-footer a {
-  color: #192D41 !important;
-  text-decoration: underline;
+.navbar {
+  background-color: #384e85 !important;
+  border: none !important;
+}
+
+.control button {
+  background-color: #41b4e7 !important;
+}
+
+.navbar-end li a {
+  color: #ffffff !important;
 }
 
 .navbar-end li a:hover {
-  color: #F06923 !important;
+  color: #41b4e7 !important;
+}
+
+footer a {
+  color: #384e85 !important;
+  text-decoration: underline;
 }
 
 .companies img {
