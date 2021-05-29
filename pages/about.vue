@@ -1,62 +1,105 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
-    <site-hero
-      title="Why working together with us will benefit you."
-      subtitle="IT Consultancy where quality & fairness really matters."
-      image="/about-fg.jpg"
-    ></site-hero>
+    <div class="header-container">
+      <site-nav />
+      <site-hero
+        title="Passionate about delivering high quality software"
+        subtitle="Our consultants are more than eager to assist you and your team with their technical expertise."
+      ></site-hero>
+    </div>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>We provide External Software Engineers.</h3>
+          <h6>About us<span class="light-blue">.</span></h6>
           <p>
-            For modern enterprises its paramount to have access to skilled IT
-            Engineers to engage in their projects & thats where Frontend Guild
-            comes in:
+            Founded by two brothers who want to stir up the IT consultancy
+            market by using their experience and knowledge they gained in
+            Belgium and abroad. We created a community of engineers who are
+            dedicated to supporting our clients with their tech expertise.
           </p>
           <p>
-            Frontend Guild is an IT consultancy company, specialized in web and
-            application development, with the goal to support the IT teams of
-            our clients with motivated & competent engineers.
+            Our Techee’s can architecture and deliver enterprise-scale apps &
+            services that answer today’s demanding expectations. We implement
+            innovation through agile software development and thorough testing
+            methods.
           </p>
 
           <p>
-            Our engineers are ready to collaborate with your team to create
-            applications & services you envision and support your digital
-            transformation journey.
+            Our clients are active in a wide array of industries such as
+            banking, insurance, real estate, media, government, etc. No matter
+            the industry, our consultants will assist in delivering top-notch
+            software, develop innovative products, so our customers can achieve
+            their digital objectives.
           </p>
           <p>
-            We strive to provide a quality service/experience for both our
-            clients and engineers:
+            We consistently aim for long term collaborations with our clients
+            and define together a solid & future proof strategy.
           </p>
-          <ul>
-            <li>
-              Support clients during the intake process with in-house technical
-              screenings & pair programming tests.
-            </li>
-            <li>
-              Enabling clients to identify the engineers that best match their
-              requirements.
-            </li>
-            <li>
-              Provide continuous support throughout contract duration.
-            </li>
-            <li>
-              Offering engineers projects that live up to their ambitions & let
-              them grow professionally.
-            </li>
-            <li>
-              Identifying the ideal work-life balance for each of our engineers.
-            </li>
-            <li>
-              Give our developers the necessary goodies from time to time to
-              keep them healthy & motivated ;)
-            </li>
-          </ul>
+          <figure>
+            <img src="/about-pic.jpg" alt="profile pic" />
+          </figure>
+        </div>
+      </template>
+    </main-section>
+    <div class="container-wrapper">
+      <main-section theme="sidebar-right">
+        <template v-slot:default>
+          <div class="content">
+            <h6>The Mission<span class="light-blue">.</span></h6>
+            <ul>
+              <li>
+                Building and accelerating the digital business of our clients.
+              </li>
+              <li>
+                Being a people-first organisation where life-work balance is of
+                the utmost importance.
+              </li>
+              <li>
+                Making a positive impact on our clients, our consultants and
+                their loved ones.
+              </li>
+              <li>
+                Offering engineers projects that live up to their ambitions &
+                let them grow professionally.
+              </li>
+              <li>
+                Identifying the ideal work-life balance for each of our
+                engineers.
+              </li>
+              <li>
+                Create a platform where Techee’s and clients can share knowledge
+                and expertise.
+              </li>
+            </ul>
+          </div>
+        </template>
+      </main-section>
+    </div>
+    <main-section theme="sidebar-right">
+      <template v-slot:default>
+        <div class="content">
+          <h6>The Culture<span class="light-blue">.</span></h6>
           <p>
-            By doing this, we aspire to provide our engineers with challenging
-            opportunities & support our clients with the talent their projects
-            need.
+            In this fast-paced digital world, the most valuable assets are
+            people. Tech Guild is passionate about a culture that revolves
+            around the people it works with by putting quality, flexibility and
+            unconditional support first.
+          </p>
+          <p>
+            Techee’s thrive and grow professionally by constantly challenging
+            themselves through daring workshops, training programs and seminars.
+          </p>
+          <p>
+            Tech Guild’s vision is to be an inclusive community of motivated
+            engineers where everyone can learn from each other and value
+            different perspectives. Together with our Techee’s, we collaborate
+            with our clients and create the applications and services they
+            envision.
+          </p>
+          <p>
+            We’re dedicated to continuous innovation by looking for the best
+            skills, insights and tools our Techee’s and clients need to unlock
+            their full potential.
           </p>
         </div>
       </template>
@@ -67,8 +110,18 @@
 export default {
   head() {
     return {
-      title: `${this.$siteConfig.siteName} - Full Stack Engineering Experts`
+      title: `${this.$siteConfig.siteName} - Software Engineering Experts`
     }
   }
 }
 </script>
+<style>
+h6 {
+  text-align: left;
+  font-size: 2.4em !important;
+}
+
+.content figure {
+  margin: 4rem 0 1rem 0 !important;
+}
+</style>

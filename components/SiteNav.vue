@@ -1,9 +1,5 @@
 <template>
-  <nav
-    class="navbar is-fixed-top"
-    role="navigation"
-    aria-label="main navigation"
-  >
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
         <site-logo v-if="$siteConfig.logo === 'logo-component'" />
@@ -31,7 +27,7 @@
         </li>
         <li class="navbar-item">
           <a href="/hiring">
-            Hiring
+            Careers
           </a>
         </li>
         <li class="navbar-item has-dropdown is-hoverable">
@@ -88,11 +84,50 @@ export default {
     display: none;
   }
 }
+
+.navbar {
+  background: none;
+  border: none !important;
+  padding-right: 1.5rem !important;
+}
+
 .navbar-burger {
   height: auto;
 }
 
+.navbar-end li a {
+  color: #ffffff;
+}
+
 .navbar-menu a {
   display: block;
+}
+.navbar-dropdown a.navbar-item {
+  border: none;
+}
+.navbar-dropdown a.navbar-item:hover {
+  background-color: #384e85;
+  color: #41b4e7;
+}
+.navbar-dropdown {
+  background-color: #fff;
+  color: #384e85;
+  border-radius: 6px;
+  border-top-color: #384e85;
+  box-shadow: none;
+}
+
+.navbar-dropdown a {
+  color: #384e85 !important;
+}
+
+.navbar-dropdown a:hover {
+  color: #ffffff !important;
+}
+
+.navbar-item.has-dropdown {
+  display: block !important;
+  line-height: 1.5 !important;
+  padding: 1.5rem 0.75rem 0 0.75rem !important;
 }
 </style>

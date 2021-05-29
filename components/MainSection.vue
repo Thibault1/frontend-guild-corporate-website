@@ -53,7 +53,10 @@ export default {
 
 <style lang="scss">
 .page-main-section {
-  margin-top: 52px;
+  padding: 0;
+}
+.is-three-quarters {
+  padding: 6rem 0;
 }
 .hero + .page-main-section {
   margin-top: initial;
@@ -61,10 +64,10 @@ export default {
 .is-one-quarter {
   padding: 0 20px;
   &.right-sidebar {
-    border-left: 1px solid #eee;
+    //  border-left: 1px solid #eee;
   }
   &.left-sidebar {
-    border-right: 1px solid #eee;
+    //  border-right: 1px solid #eee;
   }
 }
 </style>

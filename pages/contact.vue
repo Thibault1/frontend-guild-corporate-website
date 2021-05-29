@@ -1,10 +1,13 @@
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
-    <site-hero
-      title="Contact Us"
-      subtitle="Let's have a cup of coffee together."
-      image="/contact-fg.jpg"
-    ></site-hero>
+    <div class="header-container">
+      <site-nav />
+      <site-hero
+        title="Contact Us"
+        subtitle="Let's have a cup of coffee together."
+        image="/contact-fg.jpg"
+      ></site-hero>
+    </div>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="tile is-ancestor">
@@ -23,7 +26,7 @@
               <div class="content">
                 <p>
                   <strong>
-                    Frontend Guild - Ghent office
+                    Tech Guild - Ghent office
                   </strong>
                 </p>
                 <p>
@@ -31,7 +34,7 @@
 
                   9000 Gent<br />
                   +32 9 352 02 42<br />
-                  info@frontendguild.be
+                  hello@techguild.be
                 </p>
                 <p>
                   BE0727972726
@@ -60,7 +63,7 @@ import ContactForm from '~/components/ContactForm'
 export default {
   head() {
     return {
-      title: `${this.$siteConfig.siteName} - Full Stack Engineering Experts`
+      title: `${this.$siteConfig.siteName} - Software Engineering Experts`
     }
   },
   components: { ContactForm }

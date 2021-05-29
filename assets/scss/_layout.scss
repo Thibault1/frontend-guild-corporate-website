@@ -45,10 +45,6 @@ dt {
   font-weight: bold;
 }
 
-h1 {
-  font-family: 'BisonBold', Arial, Helvetica, sans-serif;
-}
-
 h6 {
   font-family: 'BisonBold', Arial, Helvetica, sans-serif;
   text-align: center;
@@ -61,20 +57,13 @@ h6 {
   margin-top: 25px;
 }
 
-.container-center {
-  max-width: 960px;
-  margin: 0 auto;
-  padding-top: 15px;
-  text-align: center;
-}
-
-.margin-top {
-  margin-top: 3em !important;
-}
-
 body {
   font-family: 'Encode Sans', Arial, Helvetica, sans-serif;
   color: #5c7073 !important;
+}
+
+.padding-vertical {
+  padding: 6rem 0 !important;
 }
 
 .logo-container {
@@ -85,18 +74,18 @@ h6, h3, article .title, .label {
   color: #384e85 !important;
 }
 
-.navbar {
-  background-color: #384e85 !important;
-  border: none !important;
-  padding-right: 1.5rem !important;
+.header-container {
+  background: repeating-linear-gradient(
+    -45deg,
+    #395086,
+    #395086 24vw,
+    #375272 0,
+    #375272 48vw
+  ) !important;
 }
 
 .control button {
   background-color: #41b4e7 !important;
-}
-
-.navbar-end li a {
-  color: #ffffff !important;
 }
 
 .navbar-burger {
@@ -105,22 +94,15 @@ h6, h3, article .title, .label {
 }
 
 .navbar-menu.is-active {
-  background-color: #384e85 !important;
+  background-color: #384e85 !important; 
+}
+
+.navbar-end li a {
+  border-bottom: solid #384e85 2px;
 }
 
 .navbar-end li a:hover {
-  color: #41b4e7 !important;
-}
-
-.navbar-dropdown {
-  background-color: #384e85 !important;
-  border-top: 0 !important;
-}
-
-.navbar-item.has-dropdown {
-  display: block !important;
-  line-height: 1.5 !important;
-  padding: 1.5rem 0.75rem 0 0.75rem !important;
+  border-bottom: solid #41b4e7 2px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -129,9 +111,9 @@ h6, h3, article .title, .label {
   }
 }
 
-footer a {
+.under-subtitle button:hover {
+  background-color: #ffffff !important;
   color: #384e85 !important;
-  text-decoration: underline;
 }
 
 .companies img {

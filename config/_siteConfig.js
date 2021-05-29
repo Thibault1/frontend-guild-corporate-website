@@ -10,7 +10,8 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Tech Guild',
-  tagline: 'Full Stack Engineering Experts',
+  tagline:
+    'We are a group of driven IT consultants ready to accelerate your digital transformation journey.',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {

@@ -1,11 +1,5 @@
 <template>
   <section :class="`hero is-medium hero-theme-${computedTheme}`">
-    <img
-      class="hero-bg-img"
-      :src="responsiveImage.src"
-      :lazy="false"
-      :srcset="responsiveImage.srcSet"
-    />
     <div class="hero-body">
       <div class="container">
         <h1 class="title animated fadeInUp">
@@ -54,18 +48,17 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  margin-top: 52px;
-  background-size: cover !important;
-  background-position: center;
   text-align: center;
   overflow: hidden;
   position: relative;
+  background: none !important;
 }
 
 .title {
+  font-family: 'BisonBold', Arial, Helvetica, sans-serif;
   font-weight: 300;
   @media (min-width: 768px) {
-    font-size: 3.2rem;
+    font-size: 4.7rem;
   }
 }
 .subtitle,
@@ -74,7 +67,8 @@ export default {
   margin: 0;
 }
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.3rem;
+  color: #fff !important;
   margin-bottom: 0 !important;
 }
 .under-subtitle {
@@ -110,6 +104,7 @@ export default {
     opacity: 1;
   }
 }
+
 .hero-theme-mist {
   .hero-bg-img {
     filter: grayscale(1);
@@ -127,7 +122,6 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.65);
     position: absolute;
   }
   .hero-body {
@@ -152,6 +146,15 @@ export default {
   .under-subtitle,
   .under-subtitle strong {
     text-shadow: 1px 1px 2px white;
+  }
+}
+.animated button {
+  background-color: #41b4e7 !important;
+}
+@media screen and (min-width: 769px) {
+  .hero.is-medium .hero-body {
+    padding-bottom: 7rem;
+    padding-top: 5rem;
   }
 }
 </style>

@@ -1,15 +1,21 @@
 <template>
   <div id="privacy-page" class="page-wrapper about-page content-page">
-    <site-hero title="Privacy Policy"></site-hero>
+    <div class="header-container">
+      <site-nav />
+      <site-hero
+        title="Privacy Policy"
+        subtitle="Your privacy is important for us."
+        image="/contact-fg.jpg"
+      ></site-hero>
+    </div>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Privacy Policy</h3>
           <p>
-            Your privacy is important to us. It is Frontend Guild BV's policy to
-            respect your privacy regarding any information we may collect from
-            you across our website, https://www.frontendguild.be/, and other
-            sites we own and operate.
+            Your privacy is important to us. It is Tech Guild / Frontend Guild
+            BV's policy to respect your privacy regarding any information we may
+            collect from you across our website, https://www.frontendguild.be/,
+            and other sites we own and operate.
           </p>
 
           <p>
