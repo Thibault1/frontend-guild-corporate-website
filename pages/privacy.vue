@@ -14,8 +14,8 @@
           <p>
             Your privacy is important to us. It is Tech Guild / Frontend Guild
             BV's policy to respect your privacy regarding any information we may
-            collect from you across our website, https://www.frontendguild.be/,
-            and other sites we own and operate.
+            collect from you across our website, https://www.techguild.be/, and
+            other sites we own and operate.
           </p>
 
           <p>
@@ -55,7 +55,7 @@
             Your continued use of our website will be regarded as acceptance of
             our practices around privacy and personal information. If you have
             any questions about how we handle user data and personal
-            information, feel free to contact us at: info@frontendguild.be
+            information, feel free to contact us at: hello@techguild.be
           </p>
 
           <p>

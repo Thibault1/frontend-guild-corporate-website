@@ -67,9 +67,14 @@ export default {
   margin: 0;
 }
 .subtitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #fff !important;
   margin-bottom: 0 !important;
+}
+@media only screen and (max-width: 768px) {
+  .subtitle {
+    font-size: 1rem;
+  }
 }
 .under-subtitle {
   display: inline-block;
