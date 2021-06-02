@@ -128,6 +128,12 @@ export default {
 .navbar-item.has-dropdown {
   display: block !important;
   line-height: 1.5 !important;
-  padding: 1.5rem 0.75rem 0 0.75rem !important;
+  padding: 1.5rem 0.75rem 0.75rem 0.75rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-item.has-dropdown {
+    padding: 0.5rem 0.75rem 0.75rem 0.75rem !important;
+  }
 }
 </style>

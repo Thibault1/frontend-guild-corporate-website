@@ -3,13 +3,7 @@
     <div class="container container-left">
       <div class="columns">
         <div class="column  is-3">
-          <site-logo v-if="$siteConfig.logo === 'logo-component'" />
-          <img
-            v-else
-            :src="$siteConfig.logo"
-            :alt="$siteConfig.siteName"
-            class="logo"
-          />
+          <img src="tech-guild-logo.png" />
         </div>
         <div class="column  is-2">
           <h5>About</h5>
@@ -35,7 +29,7 @@
         <div class="column  is-2">
           <h5>Contact us</h5>
           <p>+32 9 352 02 42</p>
-          <p>info@techguild.be</p>
+          <p>hello@techguild.be</p>
           <br />
           <a
             href="https://www.linkedin.com/company/frontendguild/"
@@ -89,6 +83,12 @@ p {
 .container-left {
   text-align: left !important;
 }
+@media only screen and (max-width: 768px) {
+  .site-footer .container {
+    text-align: center !important;
+  }
+}
+
 .container-center {
   padding: 0;
 }

@@ -120,6 +120,15 @@ h6, h3, article .title, .label {
   margin-right: 25px;
 }
 
+@media only screen and (max-width: 768px) {
+  .container-center {    
+    padding: 6rem 1rem !important;
+  }
+  .content {
+    padding: 0 2rem !important;
+  }
+}
+
 @font-face {
   font-family: 'BisonBold';
   src: url('../Bison-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */

@@ -36,8 +36,8 @@
           <br />
           <p>
             In the medieval times, people who shared the same profession
-            organized themselves in guilds to share expertise and knowledge and
-            in the current digital era this is still a good idea.
+            organized themselves in guilds to share expertise and knowledge, in
+            the current digital era this is still a good idea.
           </p>
           <br />
           <p>
