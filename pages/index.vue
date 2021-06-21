@@ -48,42 +48,51 @@
         </div>
       </template>
     </main-section>
-
     <div class="container-wrapper">
-      <div class="container-center technologies-overview">
-        <h6>Our toolset</h6>
-        <div class="logo-container">
-          <p>Frontend Technologies</p>
-          <img src="/javascript.svg" alt="javascript logo" />
-          <img src="/vue.svg" alt="vue logo" />
-          <img src="/angular.svg" alt="angular logo" />
-          <img src="/react.svg" alt="react logo" />
-          <img src="/redux.svg" alt="redux logo" />
-        </div>
-        <div class="logo-container">
-          <p>Backend Technologies</p>
-          <img src="/python.svg" alt="python logo" />
-          <img src="/php.svg" alt="php logo" />
-          <img src="/java.svg" alt="java logo" />
-          <img src="/c-sharp.svg" alt="c# logo" />
-          <img src="/node.svg" alt="node logo" />
-          <img src="/ruby-on-rails.svg" alt="ruby on rails logo" />
-        </div>
-        <div class="logo-container">
-          <p>Cloud Technologies</p>
-          <img src="/kubernetes.svg" alt="kubernetes logo" />
-          <img src="/docker.svg" alt="docker logo" />
-          <img src="/aws.svg" alt="aws logo" />
-          <img src="/azure.svg" alt="azure logo" />
-          <img src="/git.svg" alt="git logo" />
-          <img src="/travis.svg" alt="travis logo" />
-        </div>
-        <div class="logo-container">
-          <p>Mobile Technologies</p>
-          <img src="/xamarin.svg" alt="xamarin logo" />
-          <img src="/react-native.svg" alt="react native logo" />
-          <img src="/ios.svg" alt="ios logo" />
-          <img src="/android.svg" alt="android logo" />
+      <div class="container-center">
+        <h6>Our guilds<span class="light-blue">.</span></h6>
+        <p>
+          Our Tech Guilds are communities of engineers who are passionate about
+          the same technologies enabling them to learn from one another, share
+          ideas/expertise and let them grow professionally.
+        </p>
+        <div class="guilds-container">
+          <div class="columns">
+            <div class="column">
+              <h6>Dev Guild<span class="light-blue">.</span></h6>
+              <p>
+                Tech Guild is a Belgian IT consultancy company that is a trusted
+                partner for delivering software and digital products of the
+                highest standard.
+              </p>
+            </div>
+            <div class="column">
+              <h6>Data Guild<span class="light-blue">.</span></h6>
+              <p>
+                Tech Guild is a Belgian IT consultancy company that is a trusted
+                partner for delivering software and digital products of the
+                highest standard.
+              </p>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <h6>Cloud Guild<span class="light-blue">.</span></h6>
+              <p>
+                Tech Guild is a Belgian IT consultancy company that is a trusted
+                partner for delivering software and digital products of the
+                highest standard.
+              </p>
+            </div>
+            <div class="column">
+              <h6>User Experience Guild<span class="light-blue">.</span></h6>
+              <p>
+                Tech Guild is a Belgian IT consultancy company that is a trusted
+                partner for delivering software and digital products of the
+                highest standard.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -143,6 +152,16 @@ export default {
 <style>
 .home-page .under-subtitle {
   border-top: none;
+}
+
+.guilds-container {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.guilds-container h6 {
+  text-align: left;
+  font-size: 2em !important;
 }
 
 .light-blue {

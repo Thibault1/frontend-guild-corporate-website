@@ -1,26 +1,17 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
-    <site-hero :title="title" :subtitle="subtitle" image="/home-fg.jpg">
-      <button
-        class="button is-primary"
-        onclick="
-          window.open(
-            'https://www.linkedin.com/company/frontendguild/',
-            '_blank'
-          )
-        "
-      >
-        Follow us on LinkedIn
-      </button>
-    </site-hero>
+    <div class="header-container">
+      <site-nav />
+      <site-hero
+        title="Tech Guild News"
+        subtitle="Discover more about life at Tech Guild."
+      ></site-hero>
+    </div>
     <main-section theme="one-column">
-      <template v-slot:default>
-        <h6>News Articles</h6>
+      <div class="container-center">
+        <h6>Featured Posts<span class="light-blue">.</span></h6>
         <posts-grid />
-      </template>
-      <template v-slot:sidebar>
-        Nothing here
-      </template>
+      </div>
     </main-section>
   </div>
 </template>

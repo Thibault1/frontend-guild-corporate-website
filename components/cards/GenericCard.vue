@@ -78,9 +78,15 @@ export default {
 </script>
 <style scoped lang="scss">
 .subtitle {
-  opacity: 0.5;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding-top: 10px;
 }
+h3 {
+  font-family: 'BisonBold', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem !important;
+}
+
 .empty-content-placeholder {
   background: transparent;
   color: transparent;

@@ -4,7 +4,7 @@ subtitle: 'Gent, Belgium | €450 - €550 per day'
 category:
   - About Awake
 author: Gent
-date: 2020-04-22T01:59:00.000Z
+date: 2022-04-22T01:59:00.000Z
 featureImage: /uploads/gent.jpg
 ---
 **Why would this job be something for you?:**

@@ -1,28 +1,27 @@
 <template>
   <div id="post-page" class="page-wrapper post-page">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
-      <span
-        v-if="author && $siteConfig.posts.displayAuthor"
-        class="author-wrapper"
-      >
-        <strong>Location:</strong> {{ author }}
-      </span>
-    </site-hero>
+    <div class="header-container">
+      <site-nav />
+      <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
+        <span class="author-wrapper">
+          <strong>{{ date }}</strong>
+        </span>
+      </site-hero>
+    </div>
     <main-section :one-column-constrained="true">
       <template v-slot:default>
-        <div class="post-wrapper">
-          <markdown :markdown="$store.state.content" />
-          <div class="other-posts">
-            <h6 class="subtitle is-size-4">
-              Related Jobs
-            </h6>
-            <!-- Related Posts -->
-            <posts-grid :number="3" :category="category" :exclude="slug" />
+        <div class="container-center">
+          <div class="post-wrapper">
+            <markdown :markdown="$store.state.content" />
+            <div class="other-posts">
+              <h6 class="subtitle is-size-4">
+                More news
+              </h6>
+              <!-- Related Posts -->
+              <posts-grid :number="3" :category="category" :exclude="slug" />
+            </div>
           </div>
         </div>
-      </template>
-      <template v-slot:sidebar>
-        <post-sidebar />
       </template>
     </main-section>
   </div>
@@ -32,11 +31,9 @@ import { mapState } from 'vuex'
 import { setPageData, getFormattedDate } from '../helper'
 // import 'highlight.js/styles/github.css'
 import Markdown from '~/components/Markdown'
-import PostSidebar from '~/components/PostSidebar'
 export default {
   components: {
-    Markdown,
-    PostSidebar
+    Markdown
   },
   computed: {
     ...mapState([
@@ -63,5 +60,11 @@ export default {
 <style scoped lang="scss">
 .edit-post {
   margin-bottom: 20px;
+}
+.post-page .post-wrapper {
+  text-align: left !important;
+}
+.other-posts {
+  margin-top: 4rem;
 }
 </style>

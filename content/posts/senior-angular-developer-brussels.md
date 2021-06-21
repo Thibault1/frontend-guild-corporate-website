@@ -1,5 +1,5 @@
 ---
-title: Senior Full-Stack JavaScript Developer Job
+title: Senior JavaScript Developer
 subtitle: 'Antwerpen, Belgium | €650 - €750 per day'
 category:
   - About Awake

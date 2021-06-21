@@ -4,7 +4,7 @@ subtitle: 'Brussel, Belgium | €550 - €750 per day'
 category:
   - About Awake
 author: Brussel
-date: 2020-04-18T03:02:00.000Z
+date: 2022-04-18T03:02:00.000Z
 featureImage: /uploads/finance-fg.jpg
 ---
 **To get you motivated for this job opportunity:**
