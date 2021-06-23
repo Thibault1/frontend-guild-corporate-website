@@ -6,6 +6,7 @@ import LoadingSpinner from '../components/LoadingSpinner'
 import MainSection from '../components/MainSection'
 import NewsLetterSlideOut from '../components/NewsLetterSlideOut'
 import PostsGrid from '../components/grids/PostsGrid'
+import PositionsGrid from '../components/grids/PositionsGrid'
 import SiteFooter from '../components/SiteFooter'
 import SiteHero from '../components/SiteHero'
 import SiteLogo from '../components/SiteLogo'
@@ -19,6 +20,7 @@ Vue.component(LoadingSpinner.name, LoadingSpinner)
 Vue.component(MainSection.name, MainSection)
 Vue.component(NewsLetterSlideOut.name, NewsLetterSlideOut)
 Vue.component(PostsGrid.name, PostsGrid)
+Vue.component(PositionsGrid.name, PositionsGrid)
 Vue.component(SiteFooter.name, SiteFooter)
 Vue.component(SiteHero.name, SiteHero)
 Vue.component(SiteLogo.name, SiteLogo)

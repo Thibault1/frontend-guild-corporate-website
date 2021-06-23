@@ -82,6 +82,7 @@
       <template v-slot:default>
         <div class="content">
           <h6>Open positions<span class="light-blue">.</span></h6>
+          <positions-grid />
         </div>
       </template>
     </main-section>
