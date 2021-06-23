@@ -7,16 +7,6 @@
         :subtitle="subtitle"
         image="/home-fg.jpg"
       >
-        <button
-          class="button is-primary"
-          onclick="
-          window.open(
-            'https://www.techguild.be/careers/'
-          )
-        "
-        >
-          Join Tech Guild
-        </button>
       </site-hero>
     </div>
     <main-section theme="one-column">
@@ -34,44 +24,46 @@
             build innovative digital applications & services.
           </p>
           <br />
-          <p>
-            In the medieval times, people who shared the same profession
-            organized themselves in guilds to share expertise and knowledge, in
-            the current digital era this is still a good idea.
-          </p>
-          <br />
-          <p>
-            Our Tech Guilds are communities of engineers who are passionate
-            about the same technologies enabling them to learn from one another,
-            share ideas/expertise and let them grow professionally.
-          </p>
+          <button
+            class="button btn-call-to-action"
+            onclick="
+          location.href = 'https://techguild.be/contact'
+        "
+          >
+            Let's collaborate
+          </button>
         </div>
       </template>
     </main-section>
     <div class="container-wrapper">
       <div class="container-center">
-        <h6>Our guilds<span class="light-blue">.</span></h6>
+        <h6>the tech guilds<span class="light-blue">.</span></h6>
         <p>
-          Our Tech Guilds are communities of engineers who are passionate about
-          the same technologies enabling them to learn from one another, share
-          ideas/expertise and let them grow professionally.
+          In the medieval times, people who shared the same profession organized
+          themselves in guilds to share expertise and knowledge, in the current
+          digital era this is still a good idea. Our Tech Guilds are communities
+          of engineers who are passionate about the same technologies enabling
+          them to learn from one another, share ideas/expertise and let them
+          grow professionally.
         </p>
         <div class="guilds-container">
           <div class="columns">
             <div class="column">
               <h6>Dev Guild<span class="light-blue">.</span></h6>
               <p>
-                Tech Guild is a Belgian IT consultancy company that is a trusted
-                partner for delivering software and digital products of the
-                highest standard.
+                Dev Guild is featuring your favorite front-end and back-end
+                programming languages & frameworks. In addition to web based
+                applications that run in your preferred browser our engineers
+                develop native applications for both desktop and mobile.
               </p>
             </div>
             <div class="column">
               <h6>Data Guild<span class="light-blue">.</span></h6>
               <p>
-                Tech Guild is a Belgian IT consultancy company that is a trusted
-                partner for delivering software and digital products of the
-                highest standard.
+                Great data management enables businesses to get to know their
+                customers better, augments business processes and increases
+                revenue. Our data engineers can support you in collecting and
+                structuring all the data that your organisation generates.
               </p>
             </div>
           </div>
@@ -79,9 +71,11 @@
             <div class="column">
               <h6>Cloud Guild<span class="light-blue">.</span></h6>
               <p>
-                Tech Guild is a Belgian IT consultancy company that is a trusted
-                partner for delivering software and digital products of the
-                highest standard.
+                The cloud has enabled companies to stop investing in their own
+                server server environment, provides scalability, protects
+                against data loss loss and has made Platforms as a Service a
+                reality. If you’re looking to migrate your business to the
+                cloud, our Techees are ready.
               </p>
             </div>
             <div class="column">
@@ -98,36 +92,41 @@
     </div>
     <div class="container-center">
       <h6>We <span class="light-blue">love</span> working for</h6>
-      <div class="logo-container companies">
-        <img src="/bedrijven/zimmo.png" alt="zimmo logo" />
-        <img src="/bedrijven/mediahuis.jpg" alt="mediahuis logo" />
-        <img src="/bedrijven/fortis.jpg" alt="fortis logo" />
-        <img src="/bedrijven/vrt.png" alt="vrt logo" />
-        <img src="/bedrijven/ag.jpg" alt="ag insurance logo" />
-      </div>
-      <br />
-    </div>
 
-    <!--  <div class="container-center">
-      <h6>Meet our techees</h6>
       <VueSlickCarousel
         :arrows="false"
         :autoplay="true"
         :autoplay-speed="5000"
         :speed="3000"
       >
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+        <div class="logo-container companies">
+          <img src="/bedrijven/gsk.png" alt="GSK logo" />
+          <img src="/bedrijven/zimmo.png" alt="zimmo logo" />
+          <img src="/bedrijven/fortis.jpg" alt="BNP Paribas Fortis logo" />
+          <img src="/bedrijven/vrt.png" alt="VRT logo" />
+          <img src="/bedrijven/ag.jpg" alt="AG Insurance logo" />
+          <img src="/bedrijven/sdworx.jpg" alt="SD Worx logo" />
+        </div>
+        <div class="logo-container companies">
+          <img src="/bedrijven/dhl.jpg" alt="DHL logo" />
+          <img src="/bedrijven/mediahuis.jpg" alt="mediahuis logo" />
+          <img src="/bedrijven/elia.jpg" alt="Elia logo" />
+          <img src="/bedrijven/axa.jpg" alt="Axa logo" />
+          <img
+            src="/bedrijven/vlaamse-overheid.jpg"
+            alt="Vlaamse overheid logo"
+          />
+        </div>
       </VueSlickCarousel>
-    </div> -->
+
+      <br />
+    </div>
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
-// import VueSlickCarousel from 'vue-slick-carousel'
+import VueSlickCarousel from 'vue-slick-carousel'
 import { setPageData } from '../helper'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
@@ -139,7 +138,7 @@ export default {
       title: `${this.$siteConfig.siteName} - Software Engineering Experts`
     }
   },
-  // components: { VueSlickCarousel },
+  components: { VueSlickCarousel },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])
   },
@@ -154,6 +153,23 @@ export default {
   border-top: none;
 }
 
+.btn-call-to-action {
+  background-color: #2ecb6e;
+  border: 0;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1.5em;
+  font-size: 1em;
+}
+.btn-call-to-action:hover {
+  background-color: #32966b;
+  color: #ffffff;
+}
+
+.logo-container img {
+  float: left;
+}
+
 .guilds-container {
   margin-top: 3rem;
   text-align: left;
@@ -164,28 +180,11 @@ export default {
   font-size: 2em !important;
 }
 
-.light-blue {
-  color: #41b4e7;
-}
-
-.container-center {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 6rem 0;
-  text-align: center;
-}
-
 .technologies-overview {
   color: #fff;
 }
 
-.container-wrapper {
-  background-color: #384e85;
-}
-
-.container-wrapper .container-center,
-.container-wrapper li,
-.container-wrapper h6 {
-  color: #fff !important;
+.slick-list {
+  padding-left: 3rem !important;
 }
 </style>

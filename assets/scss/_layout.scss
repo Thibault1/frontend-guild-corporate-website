@@ -32,9 +32,6 @@ pre {
     padding: 0;
   }
 }
-.home-page .under-subtitle {
-  border-top: none !important;
-}
 
 blockquote{
   border:1px solid #eee;
@@ -55,6 +52,21 @@ h6 {
 
 .grid-theme-boxes {
   margin-top: 25px;
+}
+
+.light-blue {
+  color: #41b4e7;
+}
+
+.container-wrapper {
+  background-color: #384e85;
+}
+
+.container-wrapper .container-center,
+.container-wrapper li,
+.container-wrapper p,
+.container-wrapper h6 {
+  color: #fff !important;
 }
 
 body {
@@ -118,6 +130,13 @@ h6, h3, article .title, .label {
 
 .companies img {
   margin-right: 25px;
+}
+
+.container-center {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 6rem 0;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {

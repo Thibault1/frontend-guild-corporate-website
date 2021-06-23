@@ -88,6 +88,9 @@
           <p>
             Techee’s thrive and grow professionally by constantly challenging
             themselves through daring workshops, training programs and seminars.
+            We love building great products and turning complex problems into
+            the simplicity of beautiful solutions that solve the needs of our
+            customers.
           </p>
           <p>
             Tech Guild’s vision is to be an inclusive community of motivated
@@ -120,7 +123,6 @@ h6 {
   text-align: left;
   font-size: 2.4em !important;
 }
-
 .content figure {
   margin: 4rem 0 1rem 0 !important;
 }

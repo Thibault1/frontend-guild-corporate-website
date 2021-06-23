@@ -26,7 +26,7 @@
           </a>
         </li>
         <li class="navbar-item">
-          <a href="/hiring">
+          <a href="/careers">
             Careers
           </a>
         </li>

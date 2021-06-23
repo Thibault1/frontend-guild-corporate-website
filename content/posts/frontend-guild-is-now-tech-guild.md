@@ -29,7 +29,6 @@ The guilds will allow our engineers to thrive and grow professionally, each guil
 \
 \
 Our name and logo may have changed, but our mission to create quality software - remains the same.
-\
-\
-\
-Sincerely - Tech Guild
+
+
+
