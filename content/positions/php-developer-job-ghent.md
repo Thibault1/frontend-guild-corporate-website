@@ -1,8 +1,8 @@
 ---
-title: React Developer Job
+title: PHP Developer Job
 subtitle: 'Gent, Belgium | €450 - €550 per day'
 location: Gent
-summary: 'Yes yes yes kom maar bij ons schatjeuh kus kus kus!! Ik zie je graag. Love'
+summary: Yes yes yes kom maar bij ons schatjeuh kus kus kus!! Ik zie je graag. Love
 type: Permanent
 ---
 **Why would this job be something for you?:**

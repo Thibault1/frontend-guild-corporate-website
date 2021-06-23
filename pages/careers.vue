@@ -4,7 +4,7 @@
       <site-nav />
       <site-hero
         title="Get more from your career"
-        subtitle="Do you want to join the guild? Check our open positions!"
+        subtitle="Do you want to join the guild? Check our open positions or apply spontaneously!"
       ></site-hero>
     </div>
     <main-section theme="sidebar-right">
@@ -68,9 +68,7 @@
             </p>
             <button
               class="button btn-call-to-action"
-              onclick="
-          location.href = 'https://techguild.be/contact'
-        "
+              onclick="location.href='mailto:thibault@techguild.be?cc=maxim@techguild.be&subject=Spontaneously sollicitation&body=We are happy to hear that you are interested in joining Tech Guild, please write a short motivation why you think you would be a good fit and don’t forget to attach an up to date CV.  We will contact you ASAP after we have received your application.';"
             >
               Apply Now!
             </button>
@@ -102,7 +100,6 @@ h6 {
   text-align: left;
   font-size: 2.4em !important;
 }
-
 .content figure {
   margin: 4rem 0 1rem 0 !important;
 }
