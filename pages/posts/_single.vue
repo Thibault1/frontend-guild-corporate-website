@@ -28,7 +28,7 @@
 </template>
 <script>
 import { mapState } from 'vuex'
-import { setPageData, getFormattedDate } from '../helper'
+import { setPageData, getFormattedDate } from '../../helper'
 // import 'highlight.js/styles/github.css'
 import Markdown from '~/components/Markdown'
 export default {
@@ -53,7 +53,7 @@ export default {
     }
   },
   fetch({ store, params }) {
-    setPageData(store, { resource: 'post', slug: params.singlePost })
+    setPageData(store, { resource: 'post', slug: params.single })
   }
 }
 </script>

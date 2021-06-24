@@ -1,5 +1,5 @@
 <template>
-  <div id="home-page" class="page-wrapper home-page">
+  <div id="post-page" class="page-wrapper home-page">
     <div class="header-container">
       <site-nav />
       <site-hero
@@ -18,7 +18,7 @@
 
 <script>
 import { mapState } from 'vuex'
-import { setPageData } from '../helper'
+import { setPageData } from '../../helper'
 
 export default {
   name: 'News',
@@ -31,7 +31,7 @@ export default {
     ...mapState(['title', 'subtitle', 'featureImage'])
   },
   fetch({ store, params }) {
-    setPageData(store, { slug: 'home' })
+    setPageData(store, { slug: 'posts' })
   }
 }
 </script>

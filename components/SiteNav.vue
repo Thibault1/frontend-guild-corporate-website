@@ -49,7 +49,7 @@
           </a>
         </li>
         <li class="navbar-item">
-          <a href="/news">
+          <a href="/posts">
             News
           </a>
         </li>
