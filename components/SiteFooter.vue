@@ -3,7 +3,7 @@
     <div class="container container-left">
       <div class="columns">
         <div class="column  is-3">
-          <img src="tech-guild-logo.png" />
+          <img src="https://www.techguild.be/tech-guild-logo.png" />
         </div>
         <div class="column  is-2">
           <h5>About</h5>
@@ -35,13 +35,19 @@
             href="https://www.linkedin.com/company/frontendguild/"
             target="_blank"
           >
-            <img src="linkedin-icon.png" alt="linkedin icon" />
+            <img
+              src="https://www.techguild.be/linkedin-icon.png"
+              alt="linkedin icon"
+            />
           </a>
           <a
             href="https://www.youtube.com/channel/UCFcV5ZWhKYj9EN9FTd_1TSw"
             target="_blank"
           >
-            <img src="youtube-icon.png" alt="youtube icon" />
+            <img
+              src="https://www.techguild.be/youtube-icon.png"
+              alt="youtube icon"
+            />
           </a>
         </div>
       </div>
