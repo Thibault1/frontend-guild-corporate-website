@@ -16,7 +16,7 @@
         <div class="column  is-2">
           <h5>Careers</h5>
           <p><a href="/careers">Culture</a></p>
-          <p><a href="/careres">Freelance jobs</a></p>
+          <p><a href="/careers">Freelance jobs</a></p>
           <p><a href="/careers">Permanent jobs</a></p>
           <p><a href="/careerse">Traineeship</a></p>
         </div>
