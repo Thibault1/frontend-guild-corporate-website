@@ -3,7 +3,7 @@
     <template v-slot:default="{ item }">
       <position-card
         :title="item.title"
-        :link="`positions/${item.slug}`"
+        :link="`../positions/${item.slug}`"
         :summary="item.summary"
         :location="item.location"
         :type="item.type"
