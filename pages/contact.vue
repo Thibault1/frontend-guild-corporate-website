@@ -9,9 +9,9 @@
     </div>
     <main-section theme="sidebar-right">
       <template v-slot:default>
-        <div class="tile is-ancestor">
+        <div class="tile is-ancestor contact-form">
           <div class="tile is-parent">
-            <article class="tile is-child box">
+            <article class="tile is-child">
               <p class="title">
                 Hello!
               </p>
@@ -22,7 +22,7 @@
                 <img src="/profile-pic.png" alt="profile pic" />
               </figure>
               <br />
-              <div class="content">
+              <div class="content content-office">
                 <p class="office-title">
                   Tech Guild - Ghent office
                 </p>
@@ -40,7 +40,7 @@
             </article>
           </div>
           <div class="tile is-parent is-8">
-            <article class="tile is-child box">
+            <article class="tile is-child">
               <!-- contact-form /> -->
             </article>
           </div>
@@ -65,5 +65,11 @@ export default {
   font-weight: bold;
   font-size: 0.95rem;
   text-transform: uppercase;
+}
+.contact-form {
+  padding: 0 2rem;
+}
+.content-office {
+  padding: 1rem 0 !important;
 }
 </style>
