@@ -3,3 +3,8 @@
   command = "npm run generate"
 [build.environment]
   NODE_VERSION = "11"
+[[redirects]]
+  from = "https://frontendguild.be"
+  to = "https://techguild.be"
+  status = 301
+  force = true
