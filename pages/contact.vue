@@ -5,7 +5,6 @@
       <site-hero
         title="Contact Us"
         subtitle="Let's have a cup of coffee together."
-        image="/contact-fg.jpg"
       ></site-hero>
     </div>
     <main-section theme="sidebar-right">
@@ -42,7 +41,7 @@
           </div>
           <div class="tile is-parent is-8">
             <article class="tile is-child box">
-              <contact-form />
+              <!-- contact-form /> -->
             </article>
           </div>
         </div>
@@ -51,14 +50,14 @@
   </div>
 </template>
 <script>
-import ContactForm from '~/components/ContactForm'
+// import ContactForm from '~/components/ContactForm'
 export default {
   head() {
     return {
       title: `${this.$siteConfig.siteName} - Software Engineering Experts`
     }
-  },
-  components: { ContactForm }
+  }
+  //  components: { ContactForm }
 }
 </script>
 <style>
