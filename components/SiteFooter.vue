@@ -55,7 +55,7 @@
     <br />
     <br />
     <br />
-    <div class="container container-center">
+    <div class="container container-privacy">
       Frontend Guild BV &copy; {{ new Date().getFullYear() }} - All Rights
       Reserved - <a href="/privacy">Privacy Policy</a>
     </div>
