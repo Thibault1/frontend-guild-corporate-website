@@ -52,7 +52,7 @@
             growth.
           </p>
           <figure>
-            <img src="/about-pic.jpg" alt="profile pic" />
+            <img src="/career-pic.jpg" alt="career pic" />
           </figure>
         </div>
       </template>
