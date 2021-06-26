@@ -30,7 +30,7 @@
             Careers
           </a>
         </li>
-        <li class="navbar-item has-dropdown is-hoverable">
+        <!--    <li class="navbar-item has-dropdown is-hoverable">
           <a>
             Stories
           </a>
@@ -42,7 +42,7 @@
               Tech stories
             </a>
           </div>
-        </li>
+        </li> -->
         <li class="navbar-item">
           <a href="/about">
             About

@@ -7,18 +7,18 @@
         </div>
         <div class="column  is-2">
           <h5>About</h5>
-          <p><a href="">Home pagina</a></p>
-          <p><a href="">Client Stories</a></p>
-          <p><a href="">Tech Stories</a></p>
-          <p><a href="">About</a></p>
-          <p><a href="">News</a></p>
+          <p><a href="/">Home pagina</a></p>
+          <p><a href="/posts">Client Stories</a></p>
+          <p><a href="/posts">Tech Stories</a></p>
+          <p><a href="/about">About</a></p>
+          <p><a href="/posts">News</a></p>
         </div>
         <div class="column  is-2">
           <h5>Careers</h5>
-          <p><a href="">Culture</a></p>
-          <p><a href="">Freelance jobs</a></p>
-          <p><a href="">Permanent jobs</a></p>
-          <p><a href="">Traineeship</a></p>
+          <p><a href="/careers">Culture</a></p>
+          <p><a href="/careres">Freelance jobs</a></p>
+          <p><a href="/careers">Permanent jobs</a></p>
+          <p><a href="/careerse">Traineeship</a></p>
         </div>
         <div class="column  is-2">
           <h5>Ghent office</h5>

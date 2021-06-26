@@ -18,7 +18,7 @@
                 More news
               </h6>
               <!-- Related Posts -->
-              <posts-grid :number="3" :category="category" :exclude="slug" />
+              <posts-grid :number="2" :category="category" :exclude="slug" />
             </div>
           </div>
         </div>
@@ -58,9 +58,6 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-.edit-post {
-  margin-bottom: 20px;
-}
 .post-page .post-wrapper {
   text-align: left !important;
 }

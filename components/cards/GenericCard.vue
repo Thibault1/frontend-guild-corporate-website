@@ -19,7 +19,10 @@
       <div class="media">
         <div class="media-content">
           <nuxt-link :to="link">
-            <h3
+            <span class="post-date">
+              <slot></slot>
+            </span>
+            <h1
               :class="
                 `title
                 is-5
@@ -28,16 +31,7 @@
               "
             >
               {{ title }}
-            </h3>
-            <h4
-              :class="{
-                subtitle: true,
-                'is-6': true,
-                'empty-content-placeholder': !$slots.default
-              }"
-            >
-              <slot></slot>
-            </h4>
+            </h1>
           </nuxt-link>
         </div>
       </div>
@@ -80,11 +74,21 @@ export default {
 .subtitle {
   font-size: 0.75rem;
   font-weight: bold;
-  padding-top: 10px;
 }
-h3 {
-  font-family: 'BisonBold', Arial, Helvetica, sans-serif;
-  font-size: 1.5rem !important;
+.media-content h1 {
+  font-size: 1.2em;
+  font-weight: bold !important;
+  margin-top: 0.2em;
+  margin-bottom: 0.6em;
+  color: #ffffff;
+}
+.card-content {
+  background-color: #384e85;
+}
+.post-date {
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 .empty-content-placeholder {

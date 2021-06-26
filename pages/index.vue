@@ -49,41 +49,44 @@
         <div class="guilds-container">
           <div class="columns">
             <div class="column">
-              <h6>Dev Guild<span class="light-blue">.</span></h6>
+              <h6><span class="light-blue">Dev</span> Guild</h6>
               <p>
                 Dev Guild is featuring your favorite front-end and back-end
-                programming languages & frameworks. In addition to web based
-                applications that run in your preferred browser our engineers
-                develop native applications for both desktop and mobile.
+                programming languages & frameworks. In addition to modern web
+                based applications that run in your preferred browser our
+                engineers develop native applications for both desktop and
+                mobile.
               </p>
             </div>
             <div class="column">
-              <h6>Data Guild<span class="light-blue">.</span></h6>
+              <h6><span class="light-blue">Data</span> Guild</h6>
               <p>
                 Great data management enables businesses to get to know their
                 customers better, augments business processes and increases
-                revenue. Our data engineers can support you in collecting and
-                structuring all the data that your organisation generates.
+                revenue. Our data engineers & scientists can support you in
+                collecting, structuring and making sense of all the data that
+                your organisation generates.
               </p>
             </div>
           </div>
           <div class="columns">
             <div class="column">
-              <h6>Cloud Guild<span class="light-blue">.</span></h6>
+              <h6><span class="light-blue">Cloud</span> Guild</h6>
               <p>
                 The cloud has enabled companies to stop investing in their own
-                server server environment, provides scalability, protects
-                against data loss loss and has made Platforms as a Service a
-                reality. If you’re looking to migrate your business to the
-                cloud, our Techees are ready.
+                server environment, provides scalability, protects against data
+                loss and has made Platforms as a Service a reality. If you’re
+                looking to migrate your business to the cloud, our Techees are
+                ready.
               </p>
             </div>
             <div class="column">
-              <h6>User Experience Guild<span class="light-blue">.</span></h6>
+              <h6><span class="light-blue">APM</span> Guild</h6>
               <p>
-                Tech Guild is a Belgian IT consultancy company that is a trusted
-                partner for delivering software and digital products of the
-                highest standard.
+                Agile project management and business analysis is becoming
+                increasingly important for companies that want to stay ahead of
+                the competition. If you want to improve your business processes,
+                the APM Guild prepares your company for continuous improvement
               </p>
             </div>
           </div>

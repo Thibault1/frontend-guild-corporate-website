@@ -53,7 +53,7 @@ export default {
 }
 .location {
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 .position-content h1 {
@@ -64,7 +64,7 @@ export default {
 }
 
 p {
-  font-size: 0.9rem;
-  line-height: 1.8rem;
+  font-size: 0.95rem;
+  line-height: 1.7rem;
 }
 </style>

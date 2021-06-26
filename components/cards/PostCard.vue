@@ -9,7 +9,7 @@
         null
     "
   >
-    <span v-if="date" class="date-wrapper">
+    <span v-if="date">
       {{ datePretty }}
     </span>
   </generic-card>

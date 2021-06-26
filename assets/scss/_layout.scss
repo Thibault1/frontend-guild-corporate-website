@@ -50,12 +50,38 @@ h6 {
   margin-bottom: 0.3em !important;
 }
 
+h3 {
+  font-family: 'BisonBold', Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: #384e85 !important;
+  font-size: 2em !important;
+  line-height: 1;
+  margin-bottom: 0.5em !important;
+}
+
+h3 strong {
+  color: #41b4e7 !important;
+}
+
+.position-wrapper ul {
+  list-style: none !important;
+}
+
+.position-wrapper ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #41b4e7; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
 .grid-theme-boxes {
   margin-top: 25px;
 }
 
 .light-blue {
-  color: #41b4e7;
+  color: #41b4e7 !important;
 }
 
 .container-wrapper {
@@ -94,10 +120,6 @@ h6, h3, article .title, .label {
     #375272 0,
     #375272 48vw
   ) !important;
-}
-
-.control button {
-  background-color: #41b4e7 !important;
 }
 
 .navbar-burger {
@@ -142,6 +164,9 @@ h6, h3, article .title, .label {
 @media only screen and (max-width: 768px) {
   .container-center {    
     padding: 6rem 1rem !important;
+  }
+  .container-center .btn-call-to-action {    
+    margin-left: 2rem;
   }
   .content {
     padding: 0 2rem !important;

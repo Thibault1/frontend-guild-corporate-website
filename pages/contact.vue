@@ -24,10 +24,8 @@
               </figure>
               <br />
               <div class="content">
-                <p>
-                  <strong>
-                    Tech Guild - Ghent office
-                  </strong>
+                <p class="office-title">
+                  Tech Guild - Ghent office
                 </p>
                 <p>
                   Contributiestraat 59<br />
@@ -49,12 +47,6 @@
           </div>
         </div>
       </template>
-      <!--   <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Latest Posts
-        </h3>
-        <posts-grid :per-row="1" :number="2" />
-      </template> -->
     </main-section>
   </div>
 </template>
@@ -69,3 +61,10 @@ export default {
   components: { ContactForm }
 }
 </script>
+<style>
+.office-title {
+  font-weight: bold;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+}
+</style>
