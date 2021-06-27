@@ -7,13 +7,13 @@ featureImage: /uploads/three-reasons.jpg
 
 ### You’ll collaborate with companies of your liking.
 
-In Belgium, there are thousands of companies looking for junior to senior Software Engineers and it can be overwhelming to choose which company to work for. Choosing between a large multinational or a small startup means a totally different experience. 
+In Belgium, there are thousands of companies looking for junior to senior IT specialists and it can be overwhelming to choose which company to work for. Choosing between a large multinational or a small startup means a totally different experience. 
 
 On the one hand, large companies/multinationals offer knowledge, prestige and security which of course can be beneficial for your career. On the other hand, at startups it’s easier to make a visible impact and they offer a young vibrant culture.
 
-Then we have fast-growing Scaleups that offer the best of both worlds.
+Then we have fast-growing scaleups that offer the best of both worlds.
 
-The Belgian Tech industry is rapidly evolving, and at Tech Guild you can make an impact at the firms you prefer by working hard, adapting and always being ready for change.
+The Belgian tech industry is rapidly evolving, and at Tech Guild you can make an impact at the firms you prefer by working hard, adapting and always being ready for change.
 
 ### Great benefits.
 

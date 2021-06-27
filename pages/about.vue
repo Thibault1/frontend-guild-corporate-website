@@ -18,7 +18,7 @@
             dedicated to supporting our clients with their tech expertise.
           </p>
           <p>
-            Our Techee’s can architecture and deliver enterprise-scale apps &
+            Our Techees can architecture and deliver enterprise-scale apps &
             services that answer today’s demanding expectations. We implement
             innovation through agile software development and thorough testing
             methods.
@@ -67,7 +67,7 @@
                 engineers.
               </li>
               <li>
-                Create a platform where Techee’s and clients can share knowledge
+                Create a platform where Techees and clients can share knowledge
                 and expertise.
               </li>
             </ul>
@@ -86,7 +86,7 @@
             unconditional support first.
           </p>
           <p>
-            Techee’s thrive and grow professionally by constantly challenging
+            Techees thrive and grow professionally by constantly challenging
             themselves through daring workshops, training programs and seminars.
             We love building great products and turning complex problems into
             the simplicity of beautiful solutions that solve the needs of our
@@ -95,13 +95,13 @@
           <p>
             Tech Guild’s vision is to be an inclusive community of motivated
             engineers where everyone can learn from each other and value
-            different perspectives. Together with our Techee’s, we collaborate
+            different perspectives. Together with our Techees, we collaborate
             with our clients and create the applications and services they
             envision.
           </p>
           <p>
             We’re dedicated to continuous innovation by looking for the best
-            skills, insights and tools our Techee’s and clients need to unlock
+            skills, insights and tools our Techees and clients need to unlock
             their full potential.
           </p>
         </div>

@@ -39,7 +39,7 @@
       <div class="container-center">
         <h6>the tech guilds<span class="light-blue">.</span></h6>
         <p>
-          In the medieval times, people who shared the same profession organized
+          In the middle ages, people who shared the same profession organized
           themselves in guilds to share expertise and knowledge, in the current
           digital era this is still a good idea. Our Tech Guilds are communities
           of engineers who are passionate about the same technologies enabling
