@@ -10,6 +10,7 @@ const build = {
     config.resolve.alias.vue = 'vue/dist/vue.common'
   }
 }
+build.transpile = [/^vue2-google-maps($|\/)/];
 if (process.env.NODE_ENV === 'production') {
   build.analyze = true
   build.postcss = {
