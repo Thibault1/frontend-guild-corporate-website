@@ -2,6 +2,7 @@
 title: 'Three reasons to join Tech Guild'
 subtitle: 'Thinking about joining Tech Guild?! Learn here three reasons why you should join us.'
 date: 2022-06-25T01:59:00.000Z
+featureImage: /uploads/three-reasons.jpg
 ---
 
 ### You’ll collaborate with companies of your liking.
