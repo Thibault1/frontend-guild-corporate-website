@@ -75,11 +75,25 @@ export default {
 }
 </script>
 <style>
+.vue-map-container {
+  position: relative;
+}
+
+.vue-map-container .vue-map {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+.vue-map-hidden {
+  display: none;
+}
+
 #techguild-map {
   width: 100%;
   height: 630px;
 }
-
 .techguild-contact {
   background-color: #384e85;
   text-align: left;
