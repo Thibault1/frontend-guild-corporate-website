@@ -36,7 +36,7 @@ As a consultant for Tech Guild, your most important skill is the ability to form
 As a Frontend Engineer you will join a high performing and passionate team and work for leading brands in Belgium.
 
 * Excellent salary with a yearly bonus based on performance
-* 30 holiday days
+* 35 holiday days
 * Training and conference budget
 * Company car (Tesla / BMW / Audi)
 * A macbook or laptop from you choice 
